@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="15102" DocumentName="KP060660" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: MS UI Gothic; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; vertical-align: top; ddo-char-set: 128" />
+    <Style Name="Heading1" Value="font-family: MS UI Gothic; font-size: 16pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: MS UI Gothic; font-size: 14pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading3" Value="font-family: MS UI Gothic; font-size: 13pt; font-style: normal; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeaderSection1" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="PageHeaderSection1_PageHeaderSection2" Height="1878.236" BackColor="16777215">
+      <Control Type="AR.Field" Name="区分表示1" DataField="ページ区分表示" Left="13495.75" Top="960" Width="1292.252" Height="202" Text="'= [@ページ区分表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text2" Left="13885" Top="716" Width="483" Height="199" Caption="Ｐ． " Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="番号1" Left="14356" Top="716" Width="424" Height="199" Text="PageNumber" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" SummaryType="4" SummaryRunning="2" />
+      <Control Type="AR.Field" Name="処理年月表示1" DataField="処理年月表示" Left="9340" Top="880" Width="2698" Height="202" Text="'= [@処理年月表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="帳票名1" DataField="帳票名" Left="5436" Top="800.0001" Width="3976" Height="284" Text="帳票名" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 14pt; font-weight: bold; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text3" Left="796" Top="1638.425" Width="2741" Height="224.5747" Caption="勘      定      科      目" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text4" Left="4558" Top="1661" Width="1685.024" Height="202" Caption="金      額 (円)" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text5" Left="6432" Top="1661" Width="1335" Height="202" Caption="  収益比(%)" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text6" Left="11851" Top="1451" Width="2535" Height="202" Caption="比     較     増     減" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text7" Left="8059" Top="1661" Width="1735" Height="202" Caption="金      額 (円)" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text8" Left="13834" Top="1661" Width="1085" Height="202" Caption="比 率 (%)" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="備考31" DataField="備考3" Left="8352" Top="1451" Width="2414" Height="202" Text="備考3" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="備考21" DataField="備考2" Left="4750" Top="1451" Width="2414" Height="202" Text="備考2" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text9" Left="10011" Top="1661" Width="1335" Height="202" Caption="  収益比(%)" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text10" Left="11676" Top="1661" Width="1735" Height="202" Caption="金      額 (円)" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Box2Top" X1="181" Y1="1436" X2="14920" Y2="1436" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line2" X1="4185" Y1="1655" X2="14918" Y2="1655" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line3" X1="7760" Y1="1444" X2="7760" Y2="1878" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine1" Left="180" Top="1440" Right="180" Bottom="0" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine2" Left="14918.17" Top="1436.031" Right="14918.17" Bottom="0" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine3" Left="4185.071" Top="1436.031" Right="4185.071" Bottom="0" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine4" Left="7760.126" Top="1436.031" Right="7760.126" Bottom="0.0005149841" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine5" Left="11345.95" Top="1436.031" Right="11345.95" Bottom="0.001029968" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine6" Left="14919.87" Top="1436.031" Right="14919.87" Bottom="0.001544952" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine7" Left="6336" Top="1653.165" Right="6336" Bottom="14.74056" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine8" Left="9905.952" Top="1653.165" Right="9905.952" Bottom="14.74056" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine9" Left="13495.75" Top="1638.425" Right="13495.75" Bottom="0.0008556247" />
+    </Section>
+    <Section Type="GroupHeader" Name="GroupHeaderSection1" Height="5.669291" DataField="ページ区分" BackColor="16777215" NewPage="1" KeepTogether="1" CanGrow="0" CanShrink="1" />
+    <Section Type="GroupHeader" Name="GroupHeaderSection2" Height="5.669291" DataField="体系区分" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupHeader" Name="GroupHeaderSection3" Visible="0" Height="0.5669292" DataField="SEQ" BackColor="16777215" KeepTogether="1" />
+    <Section Type="Detail" Name="DetailSection1_DetailSection2" Height="223.937" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="科目名称1" DataField="科目名称" Left="395" Top="11" Width="3723" Height="202" Text="科目名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="金額11" DataField="金額1" Left="4230" Top="11" Width="1968" Height="202" Text="金額1" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="金額21" DataField="金額2" Left="7790" Top="11" Width="1968" Height="202" Text="金額2" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="金額31" DataField="金額3" Left="11370" Top="11" Width="1968" Height="202" Text="金額3" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="収益比表示当年度1" DataField="収益比表示_当年度" Left="6360" Top="11" Width="1244" Height="202" Text="'= [@収益比表示_当年度]" OutputFormat="0.0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="収益比表示前年度1" DataField="収益比表示_前年度" Left="9948" Top="11" Width="1244" Height="202" Text="'= [@収益比表示_前年度]" OutputFormat="0.0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="比率表示1" DataField="比率表示_Cal" Left="13689" Top="11" Width="1156" Height="202" Text="'= [@比率表示]" OutputFormat="0.0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line10" X1="188" Y1="224.5039" X2="14919" Y2="224.5039" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line7" X1="185.9527" Y1="0" X2="14916.95" Y2="0" LineWeight="0" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooterSection1" Visible="0" Height="0" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupFooter" Name="GroupFooterSection2" Height="221.1024" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Line" Name="Line1" X1="180.2835" Y1="0" X2="14911.28" Y2="0" LineWeight="0" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooterSection3" Height="0" BackColor="16777215" KeepTogether="1" />
+    <Section Type="PageFooter" Name="PageFooterSection1" Height="558" BackColor="16777215">
+      <Control Type="AR.Label" Name="Text11" Left="186" Top="11" Width="9854" Height="397" Caption="※   各節の比率は、計算式に基づいて算出された値の小数点以下第二位を四捨五入したものですので、&#xA;     同一目内の各節の比率の合計と目の比率とが等しくない場合があります。" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Box2Bottom" X1="180.8504" Y1="0" X2="14919.85" Y2="0" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line6" X1="188.2205" Y1="0" X2="14919.22" Y2="0" LineWeight="0" />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooterSection1" Visible="0" Height="220" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="会計年度" Formula="={ヘッダデータ.YOBYMD1}[1 to 6 ]" FieldType="None" />
+    <Field Name="款" Formula="=&quot;（款）&quot; + System.String.IsNullOrEmpty(科目コード) ? &quot;&quot; : (科目コード.Length &lt; 1 ? &quot;&quot; : 科目コード.Substring(0, (科目コード.Length &gt;= 2 ? 2 : (科目コード.Length - 0))))" FieldType="None" />
+    <Field Name="項" Formula="=&quot;（項）&quot; + System.String.IsNullOrEmpty(科目コード) ? &quot;&quot;&#xA;: (科目コード.Length &lt; 3 ? &quot;&quot;&#xA;: 科目コード.Substring(2, (科目コード.Length &gt;= 4 ? 2 : (科目コード.Length - 2))))" FieldType="None" />
+    <Field Name="目" Formula="=&quot;（目）&quot; + System.String.IsNullOrEmpty(科目コード) ? &quot;&quot;&#xA;: (科目コード.Length &lt; 5 ? &quot;&quot;&#xA;: 科目コード.Substring(4, (科目コード.Length &gt;= 6 ? 2 : (科目コード.Length - 4))))" FieldType="None" />
+    <Field Name="節" Formula="=&quot;（節）&quot; + System.String.IsNullOrEmpty(科目コード) ? &quot;&quot;&#xA;: (科目コード.Length &lt; 7 ? &quot;&quot;&#xA;: 科目コード.Substring(6, (科目コード.Length &gt;= 8 ? 2 : (科目コード.Length - 6))))" FieldType="None" />
+    <Field Name="貸借表示" Formula="=// (貸借区分 == &quot;1&quot; &amp;&amp; System.Convert.ToDecimal(残高金額) != 0m) ? &quot;借方&quot;&#xA;: ((貸借区分 == &quot;2&quot; &amp;&amp; System.Convert.ToDecimal(残高金額) != 0m) ? &quot;貸方&quot;&#xA;: &quot;&quot;)" FieldType="None" />
+    <Field Name="編集残高金額" Formula="=// System.String.IsNullOrEmpty(貸借区分) ? &quot;&quot;&#xA;: (System.Convert.ToDecimal(残高金額) &lt; 0m&#xA;? (System.Convert.ToDecimal(残高金額) * -1m).ToString(&quot;F0&quot;)&#xA;: System.Convert.ToDecimal(残高金額).ToString(&quot;F0&quot;))" FieldType="None" />
+    <Field Name="小切手番号表示" Formula="= 備考1 == &quot;預金口座出納簿&quot; ? &quot;小切手番号&quot;&#xA;: (備考1 == &quot;現金出納簿&quot; ? &quot;&quot;&#xA;: &quot;&quot;)" FieldType="None" />
+    <Field Name="収益比表示_当年度" FieldType="None" />
+    <Field Name="収益比表示_前年度" FieldType="None" />
+    <Field Name="比率表示_Cal" Formula="= (金額1 != System.Convert.ToDecimal(0) &amp;&amp; 金額2 == System.Convert.ToDecimal(0)) ? &quot;ｶｲｿﾞｳ&quot; : ((金額1 == System.Convert.ToDecimal(0) &amp;&amp; 金額2 != System.Convert.ToDecimal(0)) ? &quot;ｶｲｹﾞﾝ&quot;: ((金額1 == System.Convert.ToDecimal(0) &amp;&amp; 金額2 == System.Convert.ToDecimal(0)) ? &quot;-----&quot;: ((金額1 != System.Convert.ToDecimal(0) &amp;&amp; 金額2 != System.Convert.ToDecimal(0)) ? (((System.Convert.ToDecimal(金額1) / System.Convert.ToDecimal(金額2) * 100m) - 100m).ToString(&quot;F1&quot;)) : &quot;0&quot;)))" FieldType="None" />
+    <Field Name="ページ区分表示" Formula="= ページ区分 == 0 ? &quot;＜目レベル＞&quot; : (ページ区分 == 1 ? &quot;＜節レベル＞&quot; : &quot;&quot;)" FieldType="None" />
+    <Field Name="処理年月表示" Formula="= &quot;（&quot; + 備考2 + &quot;）&quot;" FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[/// <summary>
+/// FetchData イベント。
+/// レコード読み込み時に Crystal Reports の計算式（予算コード表示）を再現し、CalculatedFields に設定する。
+/// </summary>
+/// <param name="eof">データが終端に到達しているかどうか。</param>
+/// <returns>処理後の eof（true の場合はレポート出力を終了）。</returns>
+public bool ActiveReport_FetchData(bool eof)
+{
+	try
+	{
+		if (eof) return eof;
+		
+        /*CR Formula: 収益比表示_当年度
+		if (Val({ヘッダデータ.備考4}) <> 0) then
+		    {帳票データ.金額1} % Val({ヘッダデータ.備考4})
+		else 0
+        */
+		rpt.CalculatedFields["収益比表示_当年度"].Value = 収益比表示(rpt.Fields["金額1"].Value, rpt.Fields["備考4"].Value);
+		
+		/*CR Formula: 収益比表示_前年度
+		if ( Val({ヘッダデータ.備考5}) <> 0) then
+		    {帳票データ.金額2} % Val({ヘッダデータ.備考5})
+		else 0
+        */
+		rpt.CalculatedFields["収益比表示_前年度"].Value = 収益比表示(rpt.Fields["金額2"].Value, rpt.Fields["備考5"].Value);
+		
+		return eof;
+	}
+	catch{
+		return true;
+		throw;
+	}
+	
+}
+/// <summary>
+/// レポート開始時（ReportStart）に初期設定を行う。
+/// - データソースの妥当性チェック
+/// - 並び順（ソート）の適用
+/// - CrossSectionBox の罫線設定（必要時のみ）
+/// </summary>
+public void ActiveReport_ReportStart()
+{
+	
+	SetBgColorTransparentAllSections();
+	
+	if(!CheckDataSource()) return;
+	ApplySort();
+
+}
+
+/// <summary>
+/// object を decimal に変換するユーティリティ。
+/// 変換に失敗した場合は 0 を返し、帳票計算中の例外を防ぐ。
+/// </summary>
+/// <param name="value">数値として扱いたい値。</param>
+/// <returns>変換後の decimal。失敗時は 0。</returns>
+decimal TryDecimal(object value)
+{
+	
+	decimal outValue = 0M;
+	if (decimal.TryParse(value.ToString(), out outValue))
+	{
+		return outValue;
+	}
+	else
+	{
+		return 0M;
+	}
+}
+
+/// <summary>
+/// レポートのデータソースに対して、Crystal Reports 側の並び順に近い形でソートを適用する。
+/// 予算コードから科目コードの階層キー（ページ区分/体系区分/SEQ）を生成し、体系区分→階層→予算コードの順で並べ替える。
+/// </summary>
+private void ApplySort()
+{	
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (!dt.Columns.Contains("体系区分")) return; 
+	if (!dt.Columns.Contains("SEQ")) return; 
+	var dv2 = new System.Data.DataView(dt);
+	
+	dv2.Sort = "ページ区分 ASC, 体系区分 ASC, SEQ ASC";
+
+	dt = dv2.ToTable();
+	rpt.DataSource = dt;
+	rpt.DataMember = null;
+}
+
+/// <summary>
+/// rpt.DataSource が存在し、System.Data.DataTable として有効か確認
+/// </summary>
+private bool CheckDataSource()
+{
+	// ブロック確認: DataSource が割り当てられているか（null でないか）を確認
+	if (rpt.DataSource == null)
+	{
+		return false;
+	}
+
+	// ブロック確認: DataSource を DataTable にキャストし、キャストの成功を確認
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (dt == null)
+	{
+		return false;
+	}
+
+	return true;
+}
+
+
+// rpt 内のすべてのセクションに対してテキスト系コントロールの背景色を透過に設定する
+private void SetBgColorTransparentAllSections()
+{
+	// 全セクションを順に処理
+	foreach (GrapeCity.ActiveReports.SectionReportModel.Section sec in rpt.Sections)
+	{
+		// セクション内のコントロールを順に処理
+		foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+		{
+			// TextBox の場合は背景を透過にする
+			if (ctrl is TextBox)
+			{
+				TextBox tbx = (TextBox) ctrl;
+				tbx.BackColor = System.Drawing.Color.Transparent;
+			}
+
+			// Label の場合は背景を透過にする
+			if (ctrl is Label)
+			{
+				GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+				lbl.BackColor = System.Drawing.Color.Transparent;
+			}
+		}
+	}
+}
+
+
+private decimal  収益比表示(object 金額Obj, object 備考Obj)
+{
+	/*
+	if (Val({ヘッダデータ.備考}) <> 0) then
+	    {帳票データ.金額} % Val({ヘッダデータ.備考})
+	else 0
+	*/
+
+	if (TryDecimal(備考Obj) != 0m)
+	{
+		return (TryDecimal(金額Obj) / TryDecimal(備考Obj)) * 100;
+	}
+	else
+	{
+		return 0m;
+	}
+}]]></Script>
+  <PageSettings LeftMargin="868" RightMargin="868" TopMargin="794" BottomMargin="567" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="15987" DocumentName="KP031110" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; font-family: &quot;ＭＳ 明朝&quot;; vertical-align: middle; ddo-char-set: 128" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="Section1" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="Section2" Visible="0" Height="0" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line17" X1="314.6457" Y1="0" X2="15449.95" Y2="0" LineWeight="2.5" />
+    </Section>
+    <Section Type="GroupHeader" Name="Section6" Height="2585.354" DataField="部門名" BackColor="16777215" NewPage="1" KeepTogether="1" CanShrink="1">
+      <Control Type="AR.CrossSectionBox" Name="CrossSectionBox1" Left="314.6457" Top="1800" Right="15483.97" Bottom="0" LineWeight="2" CloseBorder="1" />
+      <Control Type="AR.Label" Name="部門コード見出し1" Left="3792.315" Top="2090.268" Width="900" Height="286.5827" Caption="部門コード" Style="color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="部門名見出し1" Left="4712.315" Top="2090.268" Width="2000" Height="286.5827" Caption="部門名" Style="color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="予算見出し1" Left="6762.315" Top="2090.268" Width="1200" Height="286.5827" Caption="予算合計" Style="color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="実績見出し1" Left="7992.315" Top="2090.268" Width="1200" Height="286.5827" Caption="実績合計" Style="color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="達成率見出し1" Left="9222.315" Top="2090.268" Width="900" Height="286.5827" Caption="達成率(%)" Style="color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+    </Section>
+    <Section Type="Detail" Name="Section3" Height="675.7795" BackColor="16777215" KeepTogether="1" CanGrow="0" CanShrink="1">
+      <Control Type="AR.Field" Name="部門コード1" DataField="部門コード" Left="3791.055" Top="106.0158" Width="900" Height="180" Text="部門コード" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="部門名1" DataField="部門名" Left="4711.055" Top="106.0158" Width="2000" Height="180" Text="部門名" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算合計1" DataField="予算合計" Left="6761.055" Top="106.0158" Width="1200" Height="180" Text="予算合計" OutputFormat="#,#0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="実績合計1" DataField="実績合計" Left="7991.056" Top="106.0158" Width="1200" Height="180" Text="実績合計" OutputFormat="#,#0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="達成率1" DataField="達成率" Left="9221.056" Top="106.0158" Width="900" Height="180" Text="達成率" OutputFormat="0.0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="明細罫線1" X1="3791.055" Y1="311.0157" X2="10121.06" Y2="311.0157" LineWeight="0" />
+    </Section>
+    <Section Type="GroupFooter" Name="Section7" Height="676" BackColor="16777215" KeepTogether="1" />
+    <Section Type="PageFooter" Name="Section5" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="Section4" Visible="0" Height="308" BackColor="16777215" KeepTogether="1" />
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="郵便番号sub" Formula="=&quot;〒 &quot; + 郵便番号.ToString()" FieldType="None" />
+    <Field Name="支払方法sub" Formula="= 支払方法.ToString() + &quot;：&quot; + 支払方法名称.ToString()" FieldType="None" />
+    <Field Name="金融機関名称sub" Formula="=銀行番号.ToString() + &quot;-&quot; + 支店番号.ToString()+ &quot; &quot; +支店名称.ToString().TrimEnd()" FieldType="None" />
+    <Field Name="預貯金種目sub" Formula="=預貯金種目.ToString() + &quot;: &quot; + 預貯金種目名称.ToString()" FieldType="None" />
+    <Field Name="予算コードsub" Formula="=予算コード.Substring(0,2)+&quot;-&quot;+予算コード.Substring(2,2)+&quot;-&quot;+予算コード.Substring(4,2)+&quot;-&quot;+予算コード.Substring(6,2)+&quot;-&quot;+予算コード.Substring(8,2)" FieldType="None" />
+    <Field Name="総計件数sub" FieldType="None" />
+    <Field Name="総計表示sub" FieldType="None" />
+    <Field Name="総計表示2sub" FieldType="None" />
+    <Field Name="総計金額sub" FieldType="None" />
+    <Field Name="業者名称" Formula="=債権者コード.ToString() + 債権者漢字名称.ToString()" FieldType="None" />
+  </CalculatedFields>
+  <PageSettings LeftMargin="794" RightMargin="57" TopMargin="567" BottomMargin="567" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

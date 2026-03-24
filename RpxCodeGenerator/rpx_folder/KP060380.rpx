@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="16118" DocumentName="KP060380" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: MS UI Gothic; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; vertical-align: top; ddo-char-set: 128" />
+    <Style Name="Heading1" Value="font-family: MS UI Gothic; font-size: 16pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: MS UI Gothic; font-size: 14pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading3" Value="font-family: MS UI Gothic; font-size: 13pt; font-style: normal; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeaderSection1" Visible="0" Height="225" BackColor="16777215" />
+    <Section Type="PageHeader" Name="PageHeaderSection1" Height="2572" BackColor="16777215">
+      <Control Type="AR.Shape" Name="Box1" Left="180" Top="1792" Width="15945" Height="718" BackColor="12632256" BackStyle="1" LineStyle="0" RoundingRadius="10" />
+      <Control Type="AR.Label" Name="Text1" Left="15645" Top="1561" Width="405" Height="225" Caption="頁" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="番号1" Left="14715" Top="1561" Width="924" Height="202" Text="PageNumber" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: right; ddo-char-set: 1" SummaryType="4" SummaryRunning="2" />
+      <Control Type="AR.Label" Name="Text2" Left="245" Top="1830" Width="900" Height="211" Caption="伝票番号" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text4" Left="249" Top="2061" Width="2166" Height="211" Caption="予算科目" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text5" Left="5100" Top="2270" Width="4110" Height="211" Caption="（    税抜額　　　　  　　　　　　          消費税   ）" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text7" Left="13966" Top="1830" Width="1034" Height="211" Caption="エラー内容" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text8" Left="5076" Top="1830" Width="1260" Height="211" Caption="摘要" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text9" Left="5456" Top="2041" Width="666.8345" Height="211" Caption="決裁額&#xA;" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text10" Left="3900" Top="1835" Width="1065" Height="211" Caption="所属コード" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text11" Left="2485" Top="1830" Width="1185" Height="211" Caption="負担行為日&#xA;" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="企業名称1" DataField="企業名称" Left="180" Top="1178" Width="5616" Height="322" Text="企業名称" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text12" Left="2485" Top="2061" Width="1290" Height="211" Caption="予算科目名称" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="和暦32" DataField="和暦3" Left="5153" Top="950" Width="5617" Height="248" Text="和暦3" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="和暦41" DataField="和暦4" Left="12153" Top="1558" Width="2280" Height="225" Text="和暦4" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="和暦21" DataField="和暦2" Left="2858" Top="530" Width="2122" Height="308" Text="和暦2" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="帳票名1" DataField="帳票名" Left="188" Top="493" Width="15900" Height="457" Text="帳票名" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 16pt; font-weight: bold; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text19" Left="10695" Top="2075" Width="948.0001" Height="211" Caption="決裁額&#xA;" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text21" Left="9352" Top="1833" Width="858.0001" Height="211" Caption="支出命令" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-weight: bold; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text3" Left="9355" Top="2070" Width="900" Height="211" Caption="支出回数" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text6" Left="10365" Top="1850" Width="1335" Height="211" Caption="支払内容" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text13" Left="10365" Top="2300" Width="3555" Height="211" Caption="（    税抜額　　　              　　　　消費税）" Style="color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line1" X1="184" Y1="1792" X2="16121" Y2="1792" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line2" X1="180" Y1="2495" X2="16125" Y2="2495" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line4" X1="9300" Y1="1805" X2="9300" Y2="2572" LineStyle="3" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line5" X1="14025" Y1="1805" X2="14025" Y2="2572" LineStyle="3" LineWeight="0" />
+    </Section>
+    <Section Type="Detail" Name="DetailSection1" Height="883.9998" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="伝票番号1" DataField="伝票番号" Left="225" Top="58" Width="801.1418" Height="210.7244" Text="伝票番号" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="伝票日付1" DataField="編集後伝票日付" Left="2145" Top="60" Width="1725" Height="210.7244" Text="編集後伝票日付" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="所属1" DataField="所属コード" Left="3945" Top="60" Width="1220" Height="210.7244" Text="所属コード" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算科目名称1" DataField="予算科目名称" Left="2160" Top="328" Width="1860" Height="497" Text="予算科目名称" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="内容1" DataField="エラー内容" Left="14086" Top="39" Width="2149" Height="199" Text="エラー内容" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算表示1" DataField="予算コード表示" Left="295" Top="326" Width="1795" Height="221" Text="'= [@予算コード表示]" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="内容12" DataField="内容1" Left="5155" Top="58" Width="3970" Height="210.7244" Text="内容1" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="負担決裁額1" DataField="負担決裁額" Left="5280" Top="328" Width="2015" Height="210.7244" Text="負担決裁額" OutputFormat="#,##" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="負担消費税額1" DataField="負担消費税額" Left="7395" Top="583" Width="1552" Height="210.7244" Text="負担消費税額" OutputFormat="#,##0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="支払決裁額1" DataField="支払決裁額" Left="9970" Top="343" Width="2255" Height="202" Text="支払決裁額" OutputFormat="#,##" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="支払消費税額1" DataField="支払消費税額" Left="12550" Top="598" Width="1210" Height="202" Text="支払消費税額" OutputFormat="#,##0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text14" Left="8968" Top="581" Width="156.7239" Height="202" Caption=")" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text15" Left="5149" Top="584" Width="105" Height="202" Caption="(" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text28" Visible="0" Left="13794" Top="602" Width="171.7326" Height="202" Caption=")" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text29" Visible="0" Left="10318.11" Top="600" Width="136.8896" Height="202" Caption="(" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="支払回数表示1" DataField="支払回数表示" Left="9430" Top="343" Width="518" Height="202" Text="'= [@支払回数表示]" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="支払区分詳細名称1" DataField="支払区分詳細名称" Left="10385" Top="39" Width="3475" Height="210.7244" Text="'= [@支払区分詳細名称]" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="負担税抜額1" DataField="負担税抜額" Left="5268" Top="588" Width="2037" Height="210.7244" Text="負担税抜額" OutputFormat="#,##" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="支払税抜額1" DataField="支払税抜額" Left="10464" Top="602" Width="1766" Height="202" Text="支払税抜額" OutputFormat="#,##" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="内容詳細1" DataField="エラー内容詳細" Left="14090" Top="343" Width="2145" Height="202" Text="'= [@エラー内容詳細]" CanGrow="0" Style="color: Black; font-family: ＭＳ Ｐ明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="所属名称1" DataField="所属コード名称" Left="4065" Top="313" Width="1099.724" Height="495" Text="所属コード名称" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line4DetailSection1" X1="9300" Y1="0" X2="9299.905" Y2="864.0001" LineStyle="3" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line5DetailSection1" X1="14025" Y1="0" X2="14025" Y2="864.0001" LineStyle="3" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line3" X1="176" Y1="864.0001" X2="16121" Y2="864.0001" LineWeight="2" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooterSection1" Height="135" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooterSection1" Visible="0" Height="600" BackColor="16777215" KeepTogether="1" />
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="予算コード表示" FieldType="None" />
+    <Field Name="科目コード表示" FieldType="None" />
+    <Field Name="仕訳件数" Formula="=//仕訳発生件数 == 0 ?//&quot;&quot;&#xD;&#xA;//&quot;&#xD;&#xA;//&quot;件&quot;" FieldType="None" />
+    <Field Name="消費税額表示" FieldType="None" />
+    <Field Name="支払回数表示" FieldType="None" />
+    <Field Name="支払区分詳細名称" FieldType="None" />
+    <Field Name="エラー内容詳細" FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[public void ActiveReport_ReportStart()
+{
+	// rpt 内のすべてのセクションに対してテキスト系コントロールの背景色を透過に設定する
+	SetBgColorTransparentAllSections();
+}
+
+public void DetailSection1_Format()
+{
+	#region 表示しない
+	支払消費税額1.Visible = Convert.ToInt32(rpt.Fields["支払税抜額"].Value) != 0;
+	Text29.Visible = Convert.ToString(rpt.Fields["エラー区分"].Value) != "1";
+	Text28.Visible = Convert.ToString(rpt.Fields["エラー区分"].Value) != "1";
+	#endregion
+	
+}
+
+public bool ActiveReport_FetchData(bool eof)
+{
+	try
+	{
+		if (eof) return eof;
+
+		/* CR Formula: 予算コード表示
+		={帳票データ.予算コード}[1 to 2] + "-" + {帳票データ.予算コード}[3 to 4] + "-" + 
+		{帳票データ.予算コード}[5 to 6] + "-" + {帳票データ.予算コード}[7 to 8] + "-" + {帳票データ.予算コード}[9 to 10]
+		*/
+		rpt.CalculatedFields["予算コード表示"].Value = GetCrystalSubstring(Convert.ToString(rpt.Fields["予算コード"].Value), 1, 2) + "-" + 
+													GetCrystalSubstring(Convert.ToString(rpt.Fields["予算コード"].Value), 3, 4) + "-" + 
+													GetCrystalSubstring(Convert.ToString(rpt.Fields["予算コード"].Value), 5, 6) + "-" + 
+													GetCrystalSubstring(Convert.ToString(rpt.Fields["予算コード"].Value), 7, 8) + "-" + 
+													GetCrystalSubstring(Convert.ToString(rpt.Fields["予算コード"].Value), 9, 10);
+
+		/* CR Formula: 科目コード表示
+		={帳票データ.科目コード}[1 to 2] + "-" + {帳票データ.科目コード}[3 to 4] + "-" + 
+		{帳票データ.科目コード}[5 to 6] + "-" + {帳票データ.科目コード}[7 to 8]
+		
+		rpt.CalculatedFields["科目コード表示"].Value = GetCrystalSubstring(Convert.ToString(rpt.Fields["科目コード"].Value), 1, 2) + "-" + 
+													GetCrystalSubstring(Convert.ToString(rpt.Fields["科目コード"].Value), 3, 4) + "-" + 
+													GetCrystalSubstring(Convert.ToString(rpt.Fields["科目コード"].Value), 5, 6) + "-" + 
+													GetCrystalSubstring(Convert.ToString(rpt.Fields["科目コード"].Value), 7, 8);
+		*/
+		
+		/* CR Formula: 支払回数表示
+		=if({帳票データ.エラー区分}="1") then
+		""
+		else
+		 totext({帳票データ.支払回数},0) + "回"
+		*/
+		if (Convert.ToString(rpt.Fields["エラー区分"].Value) == "1"){
+			rpt.CalculatedFields["支払回数表示"].Value = "";
+		}
+		else{
+			rpt.CalculatedFields["支払回数表示"].Value = GetCrystalToText(rpt.Fields["支払回数"].Value, 0, false) + "回";
+		}
+		
+		/* CR Formula: 支払区分詳細名称
+		=if {帳票データ.支払区分} = "" then
+		""
+		else if {帳票データ.支払区分}  = "1" then
+		{帳票データ.支払区分名称}
+		else 
+		{帳票データ.支払区分名称}+"を含む"
+		*/
+		if (Convert.ToString(rpt.Fields["支払区分"].Value) == ""){
+			rpt.CalculatedFields["支払区分詳細名称"].Value = "";
+		}
+		else if (Convert.ToString(rpt.Fields["支払区分"].Value) == "1"){
+			rpt.CalculatedFields["支払区分詳細名称"].Value = Convert.ToString(rpt.Fields["支払区分名称"].Value);
+		}
+		else{
+			rpt.CalculatedFields["支払区分詳細名称"].Value = Convert.ToString(rpt.Fields["支払区分名称"].Value) +"を含む";
+		}
+
+		/* CR Formula: エラー内容詳細
+		=if {帳票データ.エラー区分} = "1" then
+		"" 
+		else if {帳票データ.エラー区分} = "2" then
+		"差額　" +totext({帳票データ.負担決裁額} -{帳票データ.支払決裁額},0) + "円"
+		
+		else 
+		"差額　" +totext({帳票データ.支払決裁額} - {帳票データ.負担決裁額},0) + "円"
+		*/
+		if (Convert.ToString(rpt.Fields["エラー区分"].Value) == "1"){
+			rpt.CalculatedFields["エラー内容詳細"].Value = "";
+		}
+		else if (Convert.ToString(rpt.Fields["エラー区分"].Value) == "2"){
+			rpt.CalculatedFields["エラー内容詳細"].Value = "差額　" + GetCrystalToText(Convert.ToInt64(rpt.Fields["負担決裁額"].Value) - Convert.ToInt64(rpt.Fields["支払決裁額"].Value), 0, true) + "円";
+		}
+		else{
+			rpt.CalculatedFields["エラー内容詳細"].Value = "差額　" + GetCrystalToText(Convert.ToInt64(rpt.Fields["支払決裁額"].Value) - Convert.ToInt64(rpt.Fields["負担決裁額"].Value), 0, true) + "円";
+		}
+		
+		return eof;
+	}
+	catch (Exception ex)
+	{
+		/*System.Windows.Forms.MessageBox.Show(
+			ex.Message,
+			"ActiveReports Error",
+			System.Windows.Forms.MessageBoxButtons.OK,
+			System.Windows.Forms.MessageBoxIcon.Error
+			);*/
+		return true;
+		throw;	
+	}
+}
+
+/// <summary>
+/// 入力文字列からstart?endまで（終端含む）の部分文字列を返す。CrystalReportのメソッドと同様（1-based）
+/// </summary>
+/// <param name="input">ソース文字列。</param>
+/// <param name="start">開始インデックス（1-based）。</param>
+/// <param name="end">終了インデックス（1-based、終端含む）。</param>
+/// <returns>該当する部分文字列。入力無効かstartが範囲外なら空文字を返す。</returns>
+private string GetCrystalSubstring(string input, int start, int end)
+{
+	// 0ベースに変換する
+	start--;
+	end--;
+	// 入力チェック: inputがnull/empty、またはstartが文字列長を超える場合は空文字を返す
+	if (string.IsNullOrEmpty(input) || start >= input.Length)
+	{
+		return "";
+	}
+
+	// 計算ブロック: 取得する長さを決定する。取得長を残り文字数を超えないようにクランプする。
+	int length = Math.Min(end - start + 1, input.Length - start);
+    
+	// 結果取得ブロック: 計算済みの長さで start から substring を返す
+	return input.Substring(start, length);
+}
+
+/// <summary>
+/// 値を固定小数点の桁数で数値文字列に変換します。無効な値の場合は空文字列を返します。
+/// </summary>
+/// <param name="value">変換対象の値（null または DBNull の可能性あり）。</param>
+/// <param name="decimals">表示する小数点以下の桁数。</param>
+/// <returns>フォーマットされた文字列、または変換できない場合は空文字列を返します。</returns>
+private string GetCrystalToText(object value, int decimals, bool thousandSep)
+{
+	// 入力チェック: value が null または DBNull の場合は空文字列を返す
+	if (value == null || value == DBNull.Value)
+		return "";
+
+	// 変換処理: 値を decimal に変換を試み、失敗したら空文字列を返す
+	decimal d;
+	if (!decimal.TryParse(value.ToString(), out d))
+		return "";
+
+	// 書式化: 指定された小数桁数で固定小数点形式の文字列を返す
+	if (thousandSep){
+		return d.ToString("#,##0");
+	}
+	return d.ToString("F" + decimals);
+}
+
+private void SetBgColorTransparentAllSections()
+{
+	// 全セクションを順に処理
+	foreach (GrapeCity.ActiveReports.SectionReportModel.Section sec in rpt.Sections)
+	{
+		// セクション内のコントロールを順に処理
+		foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+		{
+			// TextBox の場合は背景を透過にする
+			if (ctrl is TextBox)
+			{
+				TextBox tbx = (TextBox) ctrl;
+				tbx.BackColor = System.Drawing.Color.Transparent;
+			}
+
+			// Label の場合は背景を透過にする
+			if (ctrl is Label)
+			{
+				GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+				lbl.BackColor = System.Drawing.Color.Transparent;
+			}
+		}
+	}
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="360" RightMargin="360" TopMargin="360" BottomMargin="360" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

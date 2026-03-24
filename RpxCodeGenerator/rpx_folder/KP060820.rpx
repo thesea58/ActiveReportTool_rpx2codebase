@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.2" PrintWidth="11282" DocumentName="KP060820" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128; vertical-align: top" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="Section1" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="Section2" Height="3061.417" BackColor="16777215">
+      <Control Type="AR.Shape" Name="Box1" Left="3585" Top="525" Width="7235" Height="1095" BackStyle="1" LineWeight="2" RoundingRadius="10" />
+      <Control Type="AR.Field" Name="帳票名1" DataField="帳票名" Left="2040" Top="2010" Width="6795" Height="465" Text="帳票名" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 20pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="集計日付名称1" DataField="集計日付名称" Left="8145" Top="2100" Width="2685" Height="211" Text="集計日付名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text5" Left="240" Top="2730" Width="2625" Height="290.0312" Caption="預金先・収支残" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text1" Left="2895" Top="2730" Width="1995" Height="290.0312" Caption="前 日 残" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text2" Left="4875" Top="2730" Width="1995" Height="290.0312" Caption="受    入" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text3" Left="6855" Top="2730" Width="1995" Height="290.0312" Caption="支    払" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text4" Left="8835" Top="2730" Width="1995" Height="290.0312" Caption="当 日 残" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="帳票ID1" DataField="帳票ID" Left="8490" Top="195" Width="2280" Height="211" Text="帳票ID" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text7" Left="3675" Top="765" Width="270" Height="705" Caption="決&#xA;&#xA;裁" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text8" Left="4035" Top="570" Width="960" Height="211" Caption="管理者" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text9" Left="5010" Top="570" Width="960" Height="211" Caption="部  長" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text10" Left="5955" Top="570" Width="960" Height="211" Caption="次  長" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text11" Left="6930" Top="570" Width="960" Height="211" Caption="課  長" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text12" Left="7905" Top="570" Width="960" Height="211" Caption="主  幹" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text13" Left="8880" Top="570" Width="960" Height="211" Caption="主  査" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text14" Left="9825" Top="570" Width="960" Height="211" Caption="担  当" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line15" X1="200.126" Y1="3044.976" X2="10835.13" Y2="3044.976" />
+      <Control Type="AR.Line" Name="Line1" X1="2895.103" Y1="2590" X2="2895.103" Y2="3045" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line2" X1="8855.103" Y1="2590" X2="8855.103" Y2="3045" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line3" X1="6875.103" Y1="2590" X2="6875.103" Y2="3045" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line4" X1="4885.103" Y1="2580" X2="4885.103" Y2="3045" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line5" X1="4030" Y1="525" X2="4030" Y2="1615" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line11" X1="4995" Y1="525" X2="4995" Y2="1615" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line10" X1="5955" Y1="525" X2="5955" Y2="1615" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line9" X1="6930" Y1="525" X2="6930" Y2="1615" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line8" X1="7905" Y1="525" X2="7905" Y2="1615" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line7" X1="8865" Y1="525" X2="8865" Y2="1615" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line6" X1="9825" Y1="525" X2="9825" Y2="1615" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line12" X1="4040" Y1="790" X2="10820" Y2="790" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line13" X1="200.126" Y1="2564.787" X2="10835.13" Y2="2564.787" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line16" X1="200.126" Y1="2564.787" X2="200.126" Y2="3061.417" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line17" X1="10824.95" Y1="2564.787" X2="10824.95" Y2="3061.417" LineWeight="2" />
+    </Section>
+    <Section Type="GroupHeader" Name="GroupHeaderSection1" Height="0" DataField="集計日付" BackColor="16777215" NewPage="1" KeepTogether="1" />
+    <Section Type="GroupHeader" Name="GroupHeaderSection2" Height="0" DataField="ページ" BackColor="16777215" NewPage="1" KeepTogether="1" />
+    <Section Type="Detail" Name="Section3" Height="325.4173" BackColor="16777215">
+      <Control Type="AR.Field" Name="前残金額1" DataField="前残金額" Left="2894.74" Top="58.96063" Width="1865" Height="221" Text="前残金額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="合計行区分1" DataField="合計行区分" Visible="0" Left="2789.858" Top="44.78741" Width="300" Height="211" Text="合計行区分" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="SEQ1" DataField="SEQ" Visible="0" Left="2684.976" Top="44.78741" Width="315" Height="211" Text="SEQ" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="現預金科目名称1" DataField="現預金科目名称" Left="464.8819" Top="60.09449" Width="2145.26" Height="210.8977" Text="現預金科目名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: left; ddo-char-set: 1; ddo-shrink-to-fit: true" />
+      <Control Type="AR.Field" Name="科目名称表示1" DataField="合計名称表示_Cal" Left="269.8583" Top="60.09449" Width="2594.835" Height="210.8977" Text="'= [@合計名称表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; text-justify: auto; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="借方金額1" DataField="借方金額" Left="4874.74" Top="58.96063" Width="1865" Height="221" Text="借方金額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="貸方金額1" DataField="貸方金額" Left="6854.74" Top="58.96063" Width="1865" Height="221" Text="貸方金額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="残高金額1" DataField="残高金額" Left="8834.74" Top="58.96063" Width="1865" Height="221" Text="残高金額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line1Section3" X1="2895.307" Y1="0" X2="2895.307" Y2="335" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line2Section3" X1="8854.866" Y1="0" X2="8854.866" Y2="340" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line3Section3" X1="6875.149" Y1="0" X2="6875.149" Y2="340" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line4Section3" X1="4885.228" Y1="0" X2="4885.228" Y2="340" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line14" X1="195.0236" Y1="329.9528" X2="10845.02" Y2="329.9528" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line18" X1="10830.05" Y1="0" X2="10830.05" Y2="334.4883" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line19" X1="200.126" Y1="-0.0001716614" X2="200.126" Y2="334.4882" LineWeight="2" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooterSection2" Visible="0" Height="0" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupFooter" Name="GroupFooterSection1" Height="0" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Line" Name="Line21" X1="200.126" Y1="0" X2="10850.12" Y2="0" LineWeight="2" />
+    </Section>
+    <Section Type="PageFooter" Name="Section5" Height="210" BackColor="16777215">
+      <Control Type="AR.Field" Name="Field9" Visible="0" Left="8591" Top="0" Width="2300" Height="210" Text="'= [@タイムスタンプ]" CanGrow="0" Style="background-color: White; color: Black; font-family: Meiryo UI; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+    </Section>
+    <Section Type="ReportFooter" Name="Section4" Visible="0" Height="0" BackColor="16777215" KeepTogether="1" />
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="\\G0101w2s\kaikei.net\C#90app\企業会計\KK999_共通\KK999Csp\KK060820-C01.xsd" Pattern="//ヘッダデータ" />
+  </DataSources>
+  <CalculatedFields>
+    <Field Name="合計名称表示_Cal" Formula="= 合計行区分 == &quot;1&quot; ? &quot;合          計&quot;: &quot;&quot; " FieldType="None" />
+    <Field Name="タイムスタンプ" FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[public void Section1_Format()
+{
+	#region set BackColor transparent
+	
+	SetBgColerTransparent(Section1);
+	SetBgColerTransparent(Section2);
+	SetBgColerTransparent(Section3);
+	SetBgColerTransparent(Section4);
+	SetBgColerTransparent(Section5);
+	SetBgColerTransparent(GroupFooterSection1);
+	SetBgColerTransparent(GroupFooterSection2);
+	SetBgColerTransparent(GroupHeaderSection1);
+	SetBgColerTransparent(GroupHeaderSection2);
+
+	#endregion
+}
+
+private void SetBgColerTransparent(GrapeCity.ActiveReports.SectionReportModel.Section sec)
+{
+	foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+	{
+		if (ctrl is TextBox)
+		{
+			TextBox tbx = (TextBox) ctrl;
+			tbx.BackColor = System.Drawing.Color.Transparent; 
+		}
+		if (ctrl is Label )
+		{
+			GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+			lbl.BackColor = System.Drawing.Color.Transparent;
+		}
+	}
+}
+
+
+public void GroupFooterSection1_Format()
+{
+	#region 非表示
+	this.Field9.Visible = rpt.Fields["見出区分"].Value.ToString().Contains("TIMESTAMPON");
+	#endregion
+	
+	#region Formula [@タイムスタンプ]
+	// カルチャの「言語-国/地域」を「日本語-日本」に設定します。
+	System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("ja-JP");
+	// 和暦を表すクラスです。
+	System.Globalization.JapaneseCalendar jp = new System.Globalization.JapaneseCalendar();
+	
+	// 現在のカルチャで使用する暦を、和暦に設定します。
+	ci.DateTimeFormat.Calendar = jp;
+	// 「書式」「カルチャの書式情報」を使用し、文字列に変換します。
+	this.Field9.Text = DateTime.Now.ToString("gg yy年MM月dd日 HH:mm:ss", ci);
+	
+	#endregion
+
+}
+
+
+public void Section3_Format()
+{
+	#region SET Alignment
+	
+	this.前残金額1.Alignment = TextAlignment.Right;
+	this.借方金額1.Alignment = TextAlignment.Right;
+	this.貸方金額1.Alignment = TextAlignment.Right;
+	this.残高金額1.Alignment = TextAlignment.Right;
+	this.SEQ1.Alignment = TextAlignment.Right;
+	
+	#endregion		
+	
+	this.前残金額1.Visible = (Convert.ToDecimal(rpt.Fields["前残金額"].Value) != 0);
+	this.借方金額1.Visible = (Convert.ToDecimal(rpt.Fields["借方金額"].Value) != 0);
+	this.貸方金額1.Visible = (Convert.ToDecimal(rpt.Fields["貸方金額"].Value) != 0);
+	this.残高金額1.Visible = (Convert.ToDecimal(rpt.Fields["残高金額"].Value) != 0);
+}
+
+
+public void Section5_Format()
+{
+	#region SET Alignment
+	
+	this.Field9.Alignment = TextAlignment.Center;
+	
+	#endregion
+}
+
+public void ActiveReport_ReportStart()
+{
+	ApplySort();
+}
+
+private void ApplySort()
+{
+	if (rpt.DataSource == null) return;
+
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (dt == null || !dt.Columns.Contains("集計日付") || !dt.Columns.Contains("ページ") || !dt.Columns.Contains("SEQ")) 
+	{
+		return;
+	}
+	
+	System.Data.DataView dv2 = new System.Data.DataView(dt);
+	dv2.Sort = "集計日付, ページ, SEQ";
+
+
+	rpt.DataSource = dv2;
+	rpt.DataMember = null;
+}
+
+]]></Script>
+  <PageSettings LeftMargin="567" RightMargin="57" TopMargin="567" BottomMargin="567" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

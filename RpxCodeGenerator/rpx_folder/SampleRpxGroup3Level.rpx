@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="9000" DocumentName="SampleRpxGroup3Level" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: MS UI Gothic; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; ddo-char-set: 128; vertical-align: middle" />
+    <Style Name="Heading1" Value="font-family: MS UI Gothic; font-size: 16pt; font-style: normal; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeaderSection1" Height="615" BackColor="16777215">
+      <Control Type="AR.Label" Name="タイトル1" Left="180" Top="90" Width="8700.48" Height="435.6" Caption="3 Level Group サンプル（GrandMaster ＞ Master ＞ Detail）" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 14pt; font-weight: bold; text-align: left; ddo-char-set: 1" />
+    </Section>
+    <Section Type="PageHeader" Name="PageHeaderSection1" Height="365" BackColor="16777215">
+      <Control Type="AR.Label" Name="月見出し1" Left="2379.36" Top="0" Width="699.9999" Height="364.32" Caption="月" Style="color: White; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1; ddo-shrink-to-fit: true" />
+      <Control Type="AR.Label" Name="科目コード見出し1" Left="3119.361" Top="0" Width="900" Height="364.32" Caption="科目コード" Style="color: White; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="科目名見出し1" Left="4059.36" Top="0" Width="2100" Height="364.32" Caption="科目名" Style="color: White; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="予算見出し1" Left="6199.36" Top="0" Width="999.9999" Height="364.32" Caption="予算額" Style="color: White; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="実績見出し1" Left="7239.36" Top="0" Width="999.9999" Height="364.32" Caption="実績額" Style="color: White; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="差異見出し1" Left="8279.36" Top="0" Width="599.9998" Height="364.32" Caption="差異" Style="color: White; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+    </Section>
+    <Section Type="GroupHeader" Name="GrandMasterSection1" Height="380.32" DataField="大分類" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="大分類1" DataField="大分類" Left="180" Top="25" Width="1800" Height="314.84" Text="大分類" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="大分類罫線1" X1="180" Y1="339.84" X2="8880" Y2="339.84" LineWeight="0" />
+      <Control Type="AR.Label" Name="Master注記1" Left="2085.12" Top="0" Width="2520" Height="380.32" Caption="大分類 click → Master" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+    </Section>
+    <Section Type="GroupHeader" Name="MasterSection1" Height="405" DataField="部門コード" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="部門コード1" DataField="部門コード" Left="420" Top="20" Width="900" Height="380.32" Text="部門コード" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="部門名1" DataField="部門名" Left="1380" Top="20" Width="1600" Height="380.32" Text="部門名" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Detail注記1" Left="3045.6" Top="0" Width="2414.88" Height="380.32" Caption="部門名 click → Detail" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+    </Section>
+    <Section Type="Detail" Name="DetailSection1" Height="385" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="月1" DataField="月" Left="2380" Top="15" Width="700" Height="369.48" Text="月" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="科目コード1" DataField="科目コード" Left="3120" Top="15" Width="900" Height="369.48" Text="科目コード" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="科目名1" DataField="科目名" Left="4060" Top="15" Width="2100" Height="369.48" Text="科目名" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算額1" DataField="予算額" Left="6200" Top="15" Width="999.9999" Height="369.48" Text="予算額" OutputFormat="#,#0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="実績額1" DataField="実績額" Left="7240" Top="15" Width="999.9999" Height="369.48" Text="実績額" OutputFormat="#,#0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="差異1" DataField="差異" Left="8280" Top="15" Width="600" Height="369.48" Text="差異" OutputFormat="#,#0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="明細罫線1" X1="420.48" Y1="384.48" X2="8880.479" Y2="384.48" LineWeight="0" />
+    </Section>
+    <Section Type="GroupFooter" Name="MasterFooterSection1" Height="330" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Label" Name="部門計見出し1" Left="1380" Top="20" Width="999.9999" Height="309.76" Caption="部門計" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="部門計予算1" DataField="予算額" Left="6200" Top="20" Width="999.9999" Height="309.76" Text="予算額" OutputFormat="#,#0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: right; ddo-char-set: 1" SummaryType="3" SummaryRunning="1" SummaryGroup="MasterSection1" />
+      <Control Type="AR.Field" Name="部門計実績1" DataField="実績額" Left="7240" Top="20" Width="999.9999" Height="309.76" Text="実績額" OutputFormat="#,#0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: right; ddo-char-set: 1" SummaryType="3" SummaryRunning="1" SummaryGroup="MasterSection1" />
+      <Control Type="AR.Field" Name="部門計差異1" DataField="差異" Left="8280" Top="20" Width="600" Height="309.76" Text="差異" OutputFormat="#,#0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: right; ddo-char-set: 1" SummaryType="3" SummaryRunning="1" SummaryGroup="MasterSection1" />
+    </Section>
+    <Section Type="GroupFooter" Name="GrandMasterFooterSection1" Height="395" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Label" Name="大分類計見出し1" Left="420" Top="30" Width="1960" Height="180" Caption="大分類計" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="大分類計予算1" DataField="予算額" Left="6200" Top="30" Width="999.9999" Height="180" Text="予算額" OutputFormat="#,#0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: right; ddo-char-set: 1" SummaryType="3" SummaryRunning="1" SummaryGroup="GrandMasterSection1" />
+      <Control Type="AR.Field" Name="大分類計実績1" DataField="実績額" Left="7240" Top="30" Width="999.9999" Height="180" Text="実績額" OutputFormat="#,#0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: right; ddo-char-set: 1" SummaryType="3" SummaryRunning="1" SummaryGroup="GrandMasterSection1" />
+      <Control Type="AR.Field" Name="大分類計差異1" DataField="差異" Left="8280" Top="30" Width="600" Height="180" Text="差異" OutputFormat="#,#0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-weight: bold; text-align: right; ddo-char-set: 1" SummaryType="3" SummaryRunning="1" SummaryGroup="GrandMasterSection1" />
+      <Control Type="AR.Line" Name="大分類計罫線1" X1="180" Y1="394.56" X2="8880" Y2="394.56" LineWeight="0" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooterSection1" Height="0" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooterSection1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="15135.87" DocumentName="KP060720" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: MS UI Gothic; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; vertical-align: top; ddo-char-set: 128" />
+    <Style Name="Heading1" Value="font-family: MS UI Gothic; font-size: 16pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: MS UI Gothic; font-size: 14pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading3" Value="font-family: MS UI Gothic; font-size: 13pt; font-style: normal; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="Section1" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="Section2" Height="950.16" BackColor="16777215">
+      <Control Type="AR.Field" Name="Field1" DataField="企業名称" Left="355" Top="355" Width="4800" Height="213" Text="企業名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field12" Left="13490" Top="497" Width="1207" Height="213" Text="PageNumber" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" SummaryType="4" SummaryRunning="2" />
+      <Control Type="AR.Label" Name="Text22" Left="4613" Top="0" Width="5964" Height="355" Caption="那須塩原市  水道事業会計  月次試算表" Style="background-color: White; color: Black; font-family: ＭＳ ゴシック; font-size: 16pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text24" Left="13276.8" Top="710" Width="1633.2" Height="213" Caption="（単位：円）" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text26" Left="14697" Top="497" Width="213" Height="213" Caption="頁" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="和暦11" DataField="和暦1" Left="355" Top="568" Width="1704" Height="213" Text="和暦1" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="和暦3表示1" DataField="和暦3表示_Cal" Left="6248" Top="497" Width="2698" Height="213" Text="'= [@和暦3表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+    </Section>
+    <Section Type="GroupHeader" Name="GroupHeader1" Height="857.3701" RepeatStyle="3" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Label" Name="Label1" Left="426.4809" Top="42.19685" Width="4970" Height="222" Caption="【 借     方 】" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label2" Left="5538.481" Top="355.1968" Width="4118" Height="213" Caption="科   目   名   称" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label3" Left="426.4809" Top="497.1968" Width="1562" Height="210" Caption="残      高" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label4" Left="2130.481" Top="639.1969" Width="1562" Height="210" Caption="累      計" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label5" Left="3834.481" Top="639.1969" Width="1562" Height="210" Caption="当      月" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label6" Left="2982.481" Top="355.1968" Width="1562" Height="210" Caption="合      計" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label7" Left="10721.48" Top="355.1968" Width="1562" Height="210" Caption="合      計" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label8" Left="13277.48" Top="497.1968" Width="1562" Height="210" Caption="残      高" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label9" Left="9869.48" Top="639.1969" Width="1562" Height="210" Caption="当      月" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label10" Left="11573.48" Top="639.1969" Width="1562" Height="210" Caption="累      計" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Label11" Left="9798.48" Top="42.19685" Width="5041" Height="222" Caption="【 貸     方 】" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line24" X1="365.4813" Y1="877.1968" X2="14910.48" Y2="877.1968" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line25" X1="2059.481" Y1="568.1969" X2="5467.481" Y2="568.1969" />
+      <Control Type="AR.Line" Name="Line26" X1="5467.481" Y1="7.196817" X2="5467.481" Y2="897.1968" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line27" X1="3763.481" Y1="568.1969" X2="3763.481" Y2="897.1968" />
+      <Control Type="AR.Line" Name="Line28" X1="2059.481" Y1="284.1968" X2="2059.481" Y2="897.1968" />
+      <Control Type="AR.Line" Name="Line29" X1="9808.48" Y1="284.1968" X2="14910.48" Y2="284.1968" />
+      <Control Type="AR.Line" Name="Line30" X1="9727.48" Y1="7.196817" X2="9727.48" Y2="897.1968" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line31" X1="11502.48" Y1="568.1969" X2="11502.48" Y2="897.1968" />
+      <Control Type="AR.Line" Name="Line32" X1="9727.48" Y1="568.1969" X2="13206.48" Y2="568.1969" />
+      <Control Type="AR.Line" Name="Line33" X1="13206.48" Y1="284.1968" X2="13206.48" Y2="897.1968" />
+      <Control Type="AR.Line" Name="Line34" X1="9727.48" Y1="284.1968" X2="14905.48" Y2="284.1968" />
+      <Control Type="AR.Line" Name="Line37" X1="364.8009" Y1="283.9168" X2="5467.922" Y2="283.9168" />
+      <Control Type="AR.CrossSectionBox" Name="CrossSectionBox1" Left="354.8976" Top="0" Right="14910.24" Bottom="7.510185E-05" LineWeight="2" CloseBorder="1" />
+    </Section>
+    <Section Type="Detail" Name="Section3" Height="345.2599" BackColor="16777215" KeepTogether="1" CanGrow="0">
+      <Control Type="AR.Field" Name="Field4" DataField="借方当月表示_Cal" Left="3763" Top="71" Width="1633" Height="211" Text="'= [@借方当月表示]" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field5" DataField="借方累計表示_Cal" Left="2059" Top="71" Width="1633" Height="211" Text="'= [@借方累計表示]" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field6" DataField="貸方残高表示_Cal" Left="13177" Top="71" Width="1633" Height="211" Text="'= [@貸方残高表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field7" DataField="貸方当月表示_Cal" Left="9798" Top="71" Width="1633" Height="211" Text="'= [@貸方当月表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field8" DataField="貸方累計表示_Cal" Left="11502" Top="71" Width="1633" Height="211" Text="'= [@貸方累計表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field3" DataField="借方残高発生_Cal" Left="355" Top="71" Width="1633" Height="211" Text="'= [@借方残高発生]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="科目名称1" DataField="科目名称" Left="5538" Top="71" Width="4189" Height="211" Text="科目名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line5Section3" X1="5467" Y1="0" X2="5467" Y2="345.2599" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line3Section3" X1="3763" Y1="0" X2="3763" Y2="345.2599" />
+      <Control Type="AR.Line" Name="Line4Section3" X1="2059" Y1="0" X2="2059" Y2="345.2599" />
+      <Control Type="AR.Line" Name="Line12Section3" X1="9727" Y1="0" X2="9727" Y2="345.2599" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line13Section3" X1="11502" Y1="0" X2="11502" Y2="345.2599" />
+      <Control Type="AR.Line" Name="Line17Section3" X1="13206" Y1="0" X2="13206" Y2="345.2599" />
+      <Control Type="AR.Line" Name="Line14" X1="355" Y1="334" X2="14910" Y2="334" LineStyle="3" LineWeight="0" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooter1" Height="360" BackColor="16777215" />
+    <Section Type="PageFooter" Name="Section5" Height="497" BackColor="16777215">
+      <Control Type="AR.Label" Name="Text23" Left="6674" Top="284" Width="2059" Height="213" Caption="栃木県那須塩原市" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+    </Section>
+    <Section Type="ReportFooter" Name="Section4" Height="151.8" BackColor="16777215" KeepTogether="1" />
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="\\G0105w2s\kaikei.net\C#12app\企業会計\KK403_那須塩原市\KK403Csp\KK060710-C01.xsd" Pattern="//ヘッダデータ" />
+  </DataSources>
+  <CalculatedFields>
+    <Field Name="グループ付番" Formula="= System.String.IsNullOrEmpty(内容) ? &quot;&quot; : 内容.Substring(0, 1)" FieldType="None" />
+    <Field Name="借方残高発生_Cal" FieldType="None" />
+    <Field Name="借方当月表示_Cal" FieldType="None" />
+    <Field Name="借方累計表示_Cal" FieldType="None" />
+    <Field Name="貸方残高表示_Cal" FieldType="None" />
+    <Field Name="貸方当月表示_Cal" FieldType="None" />
+    <Field Name="貸方累計表示_Cal" FieldType="None" />
+    <Field Name="内容" Formula="= System.String.IsNullOrEmpty(内容) ? &quot;&quot; : (内容.Length &lt; 3 ? &quot;&quot; : 内容.Substring(2, (内容.Length &gt;= 60 ? 58 : (内容.Length - 2))))" FieldType="None" />
+    <Field Name="和暦3表示_Cal" FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[/// <summary>
+/// FetchData イベント。
+/// レコード読み込み時に Crystal Reports の計算式（予算コード表示）を再現し、CalculatedFields に設定する。
+/// </summary>
+/// <param name="eof">データが終端に到達しているかどうか。</param>
+/// <returns>処理後の eof（true の場合はレポート出力を終了）。</returns>
+public bool ActiveReport_FetchData(bool eof)
+{
+	try
+	{
+		if (eof) return eof;
+        
+        /*CR Formula:和暦3表示_Cal
+		Mid(Replace(Replace({ヘッダデータ.和暦3}, '(', ''), ')', ''), 1, 8)
+        */
+		rpt.CalculatedFields["和暦3表示_Cal"].Value = "";
+		
+		/*CR Formula:借方当月表示_Cal
+		if {帳票データ.借方当月発生} = 0 then
+		    '0'
+		else
+		    ToText(ToNumber(ToText ({帳票データ.借方当月発生},0)),0)
+        */
+		rpt.CalculatedFields["借方当月表示_Cal"].Value = TryDecimal(rpt.Fields["借方当月発生"].Value) == 0 ?
+			"0" : ToText0(ToNumberDec0(ToText0(rpt.Fields["借方当月発生"].Value)));
+			
+		/*CR Formula:借方累計表示_Cal
+		if {帳票データ.借方期首累計} = 0 then
+		    '0'
+		else
+		    ToText(ToNumber(ToText({帳票データ.借方期首累計},0)),0)
+        */
+		rpt.CalculatedFields["借方累計表示_Cal"].Value = TryDecimal(rpt.Fields["借方期首累計"].Value) == 0 ?
+			"0" : ToText0(ToNumberDec0(ToText0(rpt.Fields["借方期首累計"].Value)));
+		
+		/*CR Formula:貸方残高表示_Cal
+		if {帳票データ.貸方当月残高} = 0 then
+		    '0'
+		else
+		    ToText(ToNumber(ToText({帳票データ.貸方当月残高},0)),0)
+        */
+		rpt.CalculatedFields["貸方残高表示_Cal"].Value = TryDecimal(rpt.Fields["貸方当月残高"].Value) == 0 ?
+			"0" : ToText0(ToNumberDec0(ToText0(rpt.Fields["貸方当月残高"].Value)));
+		
+		/*CR Formula:貸方当月表示_Cal
+		if {帳票データ.貸方当月発生} = 0 then
+		    '0'
+		else
+		    ToText(ToNumber(ToText({帳票データ.貸方当月発生},0)),0)
+        */
+		rpt.CalculatedFields["貸方当月表示_Cal"].Value = TryDecimal(rpt.Fields["貸方当月発生"].Value) == 0 ?
+			"0" : ToText0(ToNumberDec0(ToText0(rpt.Fields["貸方当月発生"].Value)));
+		
+		/*CR Formula:貸方累計表示_Cal
+		if {帳票データ.貸方期首累計} = 0
+            then '0'
+  		 else ToText (ToNumber (ToText ({帳票データ.貸方期首累計},0)),0)
+        */
+		rpt.CalculatedFields["貸方累計表示_Cal"].Value = TryDecimal(rpt.Fields["貸方期首累計"].Value) == 0 ?
+			"0" : ToText0(ToNumberDec0(ToText0(rpt.Fields["貸方期首累計"].Value)));
+		
+		/*CR Formula:借方残高発生_Cal
+		if {帳票データ.借方当月残高} = 0 then
+		    '0'
+		else
+		    ToText(ToNumber(ToText({帳票データ.借方当月残高},0)),0)
+
+        */
+		rpt.CalculatedFields["借方残高発生_Cal"].Value = TryDecimal(rpt.Fields["借方当月残高"].Value) == 0 ?
+			"0" : ToText0(ToNumberDec0(ToText0(rpt.Fields["借方当月残高"].Value)));
+		
+		/*CR Formula:和暦3表示_Cal
+        */
+		rpt.CalculatedFields["和暦3表示_Cal"].Value = WaReki3_Mid1to8(rpt.Fields["和暦3"].Value);
+		return eof;
+		
+	}
+	catch{
+		return true;
+		throw;
+	}
+	
+}
+
+
+/// <summary>
+/// レポート開始時（ReportStart）に初期設定を行う。
+/// - データソースの妥当性チェック
+/// - 並び順（ソート）の適用
+/// - CrossSectionBox の罫線設定（必要時のみ）
+/// </summary>
+public void ActiveReport_ReportStart()
+{
+	rpt.PageSettings.Orientation = GrapeCity.ActiveReports.Document.Section.PageOrientation.Landscape;
+	
+	SetBgColorTransparentAllSections();
+
+}
+
+/// <summary>
+/// object を decimal に変換するユーティリティ。
+/// 変換に失敗した場合は 0 を返し、帳票計算中の例外を防ぐ。
+/// </summary>
+/// <param name="value">数値として扱いたい値。</param>
+/// <returns>変換後の decimal。失敗時は 0。</returns>
+decimal TryDecimal(object value)
+{
+	
+	decimal outValue = 0M;
+	if (decimal.TryParse(value.ToString(), out outValue))
+	{
+		return outValue;
+	}
+	else
+	{
+		return 0M;
+	}
+}
+
+
+/// <summary>
+/// rpt.DataSource が存在し、System.Data.DataTable として有効か確認
+/// </summary>
+private bool CheckDataSource()
+{
+	// ブロック確認: DataSource が割り当てられているか（null でないか）を確認
+	if (rpt.DataSource == null)
+	{
+		return false;
+	}
+
+	// ブロック確認: DataSource を DataTable にキャストし、キャストの成功を確認
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (dt == null)
+	{
+		return false;
+	}
+
+	return true;
+}
+
+/// <summary>
+/// DataTable に指定した列が存在しない場合のみ、新しい列を追加する。
+/// 既存列がある場合は何もしない（重複追加による例外回避）。
+/// </summary>
+/// <param name="dt">対象の DataTable。</param>
+/// <param name="colName">追加する列名。</param>
+/// <param name="type">列のデータ型。</param>
+private void AddCol(System.Data.DataTable dt, string colName, System.Type type)
+{
+	if (!dt.Columns.Contains(colName))
+		dt.Columns.Add(new System.Data.DataColumn(colName, type));
+}
+
+/// <summary>
+/// 入力文字列からstart〜endまで（終端含む）の部分文字列を返す。CrystalReportのメソッドと同様（1-based）
+/// </summary>
+/// <param name="input">ソース文字列。</param>
+/// <param name="start">開始インデックス（1-based）。</param>
+/// <param name="end">終了インデックス（1-based、終端含む）。</param>
+/// <returns>該当する部分文字列。入力無効かstartが範囲外なら空文字を返す。</returns>
+private string GetCrystalSubstring(string input, int start, int end)
+{
+	// 0ベースに変換する
+	start--;
+	end--;
+	// 入力チェック: inputがnull/empty、またはstartが文字列長を超える場合は空文字を返す
+	if (string.IsNullOrEmpty(input) || start >= input.Length)
+	{
+		return "";
+	}
+
+	// 計算ブロック: 取得する長さを決定する。取得長を残り文字数を超えないようにクランプする。
+	int length = Math.Min(end - start + 1, input.Length - start);
+    
+	// 結果取得ブロック: 計算済みの長さで start から substring を返す
+	return input.Substring(start, length);
+}
+
+// rpt 内のすべてのセクションに対してテキスト系コントロールの背景色を透過に設定する
+private void SetBgColorTransparentAllSections()
+{
+	// 全セクションを順に処理
+	foreach (GrapeCity.ActiveReports.SectionReportModel.Section sec in rpt.Sections)
+	{
+		// セクション内のコントロールを順に処理
+		foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+		{
+			// TextBox の場合は背景を透過にする
+			if (ctrl is TextBox)
+			{
+				TextBox tbx = (TextBox) ctrl;
+				tbx.BackColor = System.Drawing.Color.Transparent;
+			}
+
+			// Label の場合は背景を透過にする
+			if (ctrl is Label)
+			{
+				GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+				lbl.BackColor = System.Drawing.Color.Transparent;
+			}
+		}
+	}
+}
+
+/// <summary>
+/// Crystal Reports の ToText({value}, 0) 相当の文字列変換を行う。
+/// - null / DBNull / 空文字は "" を返す
+/// - 文字列中のカンマを除去して decimal に変換
+/// - 小数 0 桁で四捨五入（AwayFromZero）し、3桁区切り（#,##0）で返す
+/// - 変換できない場合は "" を返す
+/// </summary>
+/// <param name="value">数値（または数値文字列）。</param>
+/// <returns>書式化した数値文字列。変換不可の場合は空文字。</returns>
+private string ToText0(object value)
+{
+	if (value == null || value == DBNull.Value) return "";
+
+	string s = Convert.ToString(value);
+	if (string.IsNullOrEmpty(s)) return "";
+
+	s = s.Trim().Replace(",", "");
+	try
+	{
+		decimal x = Convert.ToDecimal(s);
+		return Math.Round(x, 0, MidpointRounding.AwayFromZero).ToString("#,##0");
+	}
+	catch
+	{
+		return "";
+	}
+}
+
+/// <summary>
+/// 文字列を decimal に変換する（Crystal の ToNumber 相当の前処理）。
+/// - null は空文字として扱う
+/// - 前後の空白を除去し、桁区切りカンマを除去してから decimal に変換する
+/// - 変換に失敗した場合は 0 を返す
+/// </summary>
+/// <param name="s">数値として解釈したい文字列。</param>
+/// <returns>変換後の decimal。失敗時は 0。</returns>
+private decimal ToNumberDec0(string s)
+{
+	try { return Convert.ToDecimal((s ?? "").Trim().Replace(",", "")); }
+	catch { return 0m; }
+}
+
+/// <summary>
+/// Crystal Reports の式
+/// Mid(Replace(Replace({ヘッダデータ.和暦3}, '(', ''), ')', ''), 1, 8)
+/// を再現する。
+/// 文字列から括弧「(」「)」を除去した後、先頭 1〜8 文字（1-based）を返す。
+/// </summary>
+/// <param name="value">元の値（和暦3）。</param>
+/// <returns>括弧除去後の先頭8文字（不足する場合はそのまま返す）。</returns>
+private string WaReki3_Mid1to8(object value)
+{
+	string s = Convert.ToString(value) ?? "";
+	s = s.Replace("(", "").Replace(")", "");
+
+	if (s.Length <= 8) return s;
+	return s.Substring(0, 8); // Mid(...,1,8)
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="851" RightMargin="851" TopMargin="1701" BottomMargin="709" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

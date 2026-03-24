@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="10943" DocumentName="KP071240" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: MS UI Gothic; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; vertical-align: top; ddo-char-set: 128" />
+    <Style Name="Heading1" Value="font-family: MS UI Gothic; font-size: 16pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: MS UI Gothic; font-size: 14pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading3" Value="font-family: MS UI Gothic; font-size: 13pt; font-style: normal; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeaderSection1" Visible="0" Height="219.9685" BackColor="16777215" />
+    <Section Type="PageHeader" Name="PageHeaderSection1" Height="14285.74" BackColor="16777215" CanGrow="0">
+      <Control Type="AR.Shape" Name="Box6" Left="0" Top="6248" Width="6060" Height="1350" BackStyle="1" LineWeight="2" RoundingRadius="10" />
+      <Control Type="AR.Shape" Name="Box5" Left="0" Top="4260" Width="10508" Height="1680" BackStyle="1" LineWeight="2" RoundingRadius="10" />
+      <Control Type="AR.Shape" Name="Box4" Left="6248" Top="2840" Width="4260" Height="1108" BackStyle="1" LineWeight="2" RoundingRadius="10" />
+      <Control Type="AR.Shape" Name="Box3" Left="6248" Top="1420" Width="4260" Height="736.0001" BackStyle="1" LineWeight="2" RoundingRadius="10" />
+      <Control Type="AR.Shape" Name="Box2" Left="3124" Top="0" Width="7384" Height="1207" BackStyle="1" LineWeight="2" RoundingRadius="10" />
+      <Control Type="AR.Shape" Name="Box1" Left="0" Top="2840" Width="5964" Height="1108" BackStyle="1" LineWeight="2" RoundingRadius="10" />
+      <Control Type="AR.Label" Name="Text7" Left="3124" Top="284" Width="922.9999" Height="360" Caption="課長又は&#xA;企業出納員" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text8" Left="5893" Top="284" Width="922.9999" Height="192" Caption="市 長" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text9" Left="4970" Top="284" Width="922.9999" Height="192" Caption="係" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text10" Left="4047" Top="284" Width="922.9999" Height="192" Caption="係 長" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text11" Left="5964" Top="41" Width="4473" Height="192" Caption="主管課" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text12" Left="3195" Top="41" Width="2627" Height="192" Caption="業務課" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text13" Left="7739" Top="284" Width="922.9999" Height="192" Caption="課 長" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text14" Left="8662" Top="284" Width="922.9999" Height="192" Caption="係 長" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text15" Left="9585" Top="284" Width="922.9999" Height="192" Caption="係" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text16" Left="6816" Top="284" Width="922.9999" Height="192" Caption="部 長" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text17" Left="6328" Top="1484" Width="1278" Height="255" Caption="所　属" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text18" Left="6328" Top="1848" Width="1278" Height="255" Caption="起案者" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text19" Left="5544" Top="2996" Width="285" Height="291" Caption="円 " Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text20" Left="1904" Top="3584" Width="1270" Height="270" Caption="内消費税額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text21" Left="5740" Top="3584" Width="135" Height="256" Caption="） " Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text22" Left="3276" Top="3584" Width="251" Height="256" Caption="（ " Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text23" Left="6328" Top="2912" Width="1278" Height="255" Caption="起票日" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text24" Left="6328" Top="3640" Width="1278" Height="255" Caption="伝票番号" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text25" Visible="0" Left="6328" Top="3276" Width="1278" Height="255" Caption="決裁日" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text26" Visible="0" Left="8378" Top="3276" Width="240" Height="255" Caption="年" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text27" Visible="0" Left="9230" Top="3276" Width="240" Height="255" Caption="月" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text28" Visible="0" Left="10082" Top="3276" Width="240" Height="255" Caption="日" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text29" Left="142" Top="3266" Width="1420" Height="255" Caption="金　　 額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="年度1" DataField="年度" Left="6248" Top="2343" Width="1278" Height="255" Text="年度" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="消費税額1" DataField="消費税額" Left="3551" Top="3551" Width="1853" Height="302" Text="消費税額" OutputFormat="#,##" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ ゴシック; font-size: 15pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="決裁額1" DataField="決裁額" Left="2914" Top="2970" Width="2556" Height="302" Text="決裁額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ ゴシック; font-size: 15pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="伝票番号1" DataField="伝票番号" Left="7810" Top="3640" Width="2556" Height="255" Text="伝票番号" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text33" Left="315" Top="4899" Width="1389.189" Height="225" Caption="予 算 科 目" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text34" Left="1905" Top="4308" Width="3847" Height="211" Caption="借　　方" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text35" Left="1935" Top="4688" Width="375.2361" Height="211" Caption="款" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text36" Left="1935" Top="4899" Width="375.2361" Height="211" Caption="項" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text37" Left="1935" Top="5124" Width="375.2361" Height="211" Caption="目" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text38" Left="1935" Top="5335" Width="375.2361" Height="211" Caption="節&#xA;" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text39" Left="1935" Top="5546" Width="375.2361" Height="211" Caption="細" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算款名称1" DataField="予算款名称" Left="2755" Top="4688" Width="7760" Height="211" Text="予算款名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算項名称1" DataField="予算項名称" Left="2755" Top="4899" Width="7760" Height="211" Text="予算項名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算目名称1" DataField="予算目名称" Left="2755" Top="5124" Width="7760" Height="211" Text="予算目名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算節名称1" DataField="予算節名称" Left="2755" Top="5335" Width="7760" Height="211" Text="予算節名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算細名称1" DataField="予算細名称" Left="2755" Top="5546" Width="7760" Height="211" Text="予算細名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算款1" DataField="予算コード款" Left="2325" Top="4688" Width="373.0157" Height="211" Text="'= [@予算コード款]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算項1" DataField="予算コード項" Left="2325" Top="4899" Width="373.0157" Height="211" Text="'= [@予算コード項]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算目1" DataField="予算コード目" Left="2325" Top="5124" Width="373.0157" Height="211" Text="'= [@予算コード目]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算節1" DataField="予算コード節" Left="2325" Top="5335" Width="373.0157" Height="211" Text="'= [@予算コード節]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算細1" DataField="予算コード細" Left="2325" Top="5546" Width="373.0157" Height="211" Text="'= [@予算コード細]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text40" Left="284" Top="6390" Width="2272" Height="211" Caption="予  算  現  額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text41" Left="284" Top="6816" Width="2272" Height="211" Caption="支出負担行為累計額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text42" Left="284" Top="7242" Width="2272" Height="211" Caption="予  算  残  額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text43" Left="5652" Top="6363" Width="225" Height="225" Caption="円" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text44" Left="5652" Top="6799" Width="225" Height="225" Caption="円" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text45" Left="5652" Top="7235" Width="225" Height="225" Caption="円" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算現額1" DataField="予算現額" Left="2925" Top="6348" Width="2580" Height="240" Text="予算現額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="執行額1" DataField="執行額" Left="2925" Top="6784" Width="2580" Height="240" Text="執行額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="予算残額1" DataField="予算残額" Left="2925" Top="7220" Width="2580" Height="240" Text="'= [@予算残額]" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text46" Left="71" Top="13987" Width="10224" Height="255" Caption="変更履歴" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text47" Left="213" Top="13561" Width="1278" Height="225" Caption="支払予定日 " Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="支払予定日1" DataField="支払予定日" Left="1910" Top="13551" Width="2760" Height="211" Text="支払予定日" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text48" Left="213" Top="12283" Width="1278" Height="225" Caption="摘      要" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="内容11" DataField="内容1" Left="1900" Top="11437" Width="8290" Height="211" Text="内容1" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="内容21" DataField="内容2" Left="1900" Top="11739" Width="8290" Height="210" Text="内容2" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="内容31" DataField="内容3" Left="1900" Top="12039" Width="8290" Height="225" Text="内容3" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="内容41" DataField="内容4" Left="1900" Top="12339" Width="8290" Height="210" Text="内容4" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="内容51" DataField="内容5" Left="1900" Top="12624" Width="8290" Height="225" Text="内容5" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text49" Left="146.2677" Top="8094.047" Width="1415.787" Height="225" Caption="税   区   分" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text50" Left="146.2677" Top="9514" Width="1415.787" Height="225" Caption="契約の相手方" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text51" Left="213" Top="10792" Width="1278" Height="225" Caption="契 約 方 法" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="税区分名称1" DataField="税区分名称" Left="1775" Top="8094" Width="3080" Height="211" Text="税区分名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ ゴシック; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="税率区分名称1" DataField="税率区分名称" Left="6674" Top="8094" Width="3720" Height="211" Text="税率区分名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ ゴシック; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text52" Left="5112" Top="8094" Width="1278" Height="225" Caption="税率区分" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="債権者1" DataField="債権者コード" Left="1920" Top="8694" Width="2100" Height="211" Text="債権者コード" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="住所11" DataField="住所1" Left="1920" Top="9116" Width="4867" Height="211" Text="住所1" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="住所21" DataField="住所2" Left="1920" Top="9538" Width="4867" Height="211" Text="住所2" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="債権者漢字名称1" DataField="債権者漢字名称" Left="1920" Top="9960" Width="4867" Height="211" Text="債権者漢字名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="代表者名称1" DataField="代表者名称" Left="1920" Top="10382" Width="4867" Height="211" Text="代表者名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="契約方法名称1" DataField="契約方法名称" Left="1917" Top="10792" Width="2496" Height="211" Text="契約方法名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="MAX変更理由11" DataField="MAX変更理由1_Cal" Left="2851" Top="12894" Width="7304" Height="211" Text="'= [@MAX変更理由1]" OutputFormat="" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" SummaryFunc="4" />
+      <Control Type="AR.Field" Name="MAX変更理由21" DataField="MAX変更理由2_Cal" Left="2851" Top="13127" Width="7304" Height="211" Text="'= [@MAX変更理由2]" OutputFormat="" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" SummaryFunc="4" />
+      <Control Type="AR.Label" Name="Text53" Left="1920" Top="12894" Width="931" Height="211" Caption="（変更理由）" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 8pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="起案者1" DataField="起案者" Left="7811" Top="1849" Width="2556" Height="255" Text="起案者" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="所属名称1" DataField="所属コード名称" Left="7812" Top="1485" Width="2556" Height="255" Text="所属コード名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="企業名称1" DataField="企業名称" Left="7655" Top="2343" Width="2840" Height="255" Text="企業名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1; ddo-shrink-to-fit: true" MinCondenseRate="50" />
+      <Control Type="AR.Field" Name="帳票名1" DataField="帳票名" Left="0" Top="1846" Width="5680" Height="375" Text="帳票名" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 18pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text1" Left="5460" Top="3556" Width="285" Height="291" Caption="円 " Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="契約日1" DataField="契約日" Left="7810" Top="2911" Width="2556" Height="255" Text="契約日" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line1" X1="3124" Y1="251" X2="10508" Y2="251" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line2" X1="9585" Y1="251" X2="9585" Y2="1207" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line3" X1="5893" Y1="0" X2="5893" Y2="1207" LineWeight="3" />
+      <Control Type="AR.Line" Name="Line4" X1="6248" Y1="1792" X2="10508" Y2="1792" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line5" X1="7668" Y1="1420" X2="7668" Y2="2156" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line6" X1="7668" Y1="2840" X2="7668" Y2="3948" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line7" X1="6258" Y1="3220" X2="10508" Y2="3220" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line8" X1="6248" Y1="3584" X2="10508" Y2="3584" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line9" X1="1704" Y1="2840" X2="1704" Y2="3948" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line10" X1="8662" Y1="251" X2="8662" Y2="1207" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line11" X1="7739" Y1="251" X2="7739" Y2="1207" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line12" X1="6816" Y1="251" X2="6816" Y2="1207" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line13" X1="4970" Y1="251" X2="4970" Y2="1207" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line14" X1="4047" Y1="251" X2="4047" Y2="1207" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line15" X1="1704" Y1="4550" X2="10508" Y2="4550" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line16" X1="1704" Y1="4260" X2="1704" Y2="5940" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line17" X1="2840" Y1="6248" X2="2840" Y2="7598" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line18" X1="10" Y1="6688" X2="6060" Y2="6688" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line19" X1="10" Y1="7148" X2="6060" Y2="7148" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line20" X1="1704" Y1="7952" X2="1704" Y2="13921" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line21" X1="20" Y1="13913" X2="10390" Y2="13913" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line22" X1="10" Y1="13423" X2="10380" Y2="13423" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line23" X1="0" Y1="11193" X2="10380" Y2="11193" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line24" X1="4910" Y1="7952" X2="4910" Y2="8431" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line25" X1="6650" Y1="7967" X2="6650" Y2="8446" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line26" X1="5" Y1="10689" X2="10380" Y2="10689" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line27" X1="0" Y1="8427" X2="10380" Y2="8427" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line29" X1="993.9999" Y1="14269" X2="993.9999" Y2="14271" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line30" X1="4118" Y1="14269" X2="4118" Y2="14271" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line31" X1="7100" Y1="14269" X2="7100" Y2="14271" LineWeight="0" />
+      <Control Type="AR.CrossSectionBox" Name="CrossSectionBox1" Left="0" Top="7951.748" Right="10399.75" Bottom="119.622" LineWeight="2" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine4" Left="993.8268" Top="14270.74" Right="993.8268" Bottom="119.622" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine5" Left="4118.173" Top="14300.74" Right="4118.173" Bottom="119.6211" />
+      <Control Type="AR.CrossSectionLine" Name="CrossSectionLine6" Left="7100.22" Top="14270.74" Right="7100.22" Bottom="119.622" />
+      <Control Type="AR.Line" Name="Line28" X1="20" Y1="14270.74" X2="10390" Y2="14270.74" LineWeight="0" />
+    </Section>
+    <Section Type="GroupHeader" Name="GroupHeaderSection1" Height="0.5669292" DataField="メイン番号" BackColor="16777215" NewPage="1" KeepTogether="1" CanGrow="0" />
+    <Section Type="Detail" Name="DetailSection1_DetailSection2" Height="496.063" BackColor="16777215">
+      <Control Type="AR.Field" Name="変更表示1" DataField="変更表示" Left="71" Top="34" Width="855" Height="202" Text="'= [@変更表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text54" Left="1065" Top="34" Width="1056" Height="202" Caption="変更前金額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="変更前金額1" DataField="変更前決裁額" Left="2201" Top="34" Width="1845" Height="202" Text="変更前決裁額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text55" Left="4189.039" Top="0" Width="922.9998" Height="202" Caption="変更金額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="契約金額1" DataField="契約金額" Left="5112" Top="34" Width="1845" Height="202" Text="契約金額" OutputFormat="#,##" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text56" Left="7171.04" Top="0" Width="1136.212" Height="202" Caption="変更後金額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="変更後金額1" DataField="変更後決裁額" Left="8307" Top="34" Width="1845" Height="202" Text="変更後決裁額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="MAX契約金額元1" DataField="MAX契約金額元_Cal" Visible="0" Left="1237" Top="285" Width="392" Height="211" Text="'= [@MAX契約金額元]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 8pt; text-align: left; ddo-char-set: 1; ddo-shrink-to-fit: true" />
+      <Control Type="AR.Field" Name="MAX契約日元1" DataField="MAX契約日元_Cal" Visible="0" Left="568" Top="285" Width="430" Height="211" Text="'= [@MAX契約日元]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 8pt; text-align: left; ddo-char-set: 1; ddo-shrink-to-fit: true" />
+      <Control Type="AR.Field" Name="MAX契約税額元1" DataField="MAX契約税額元_Cal" Visible="0" Left="1917" Top="285" Width="393" Height="211" Text="'= [@MAX契約税額元]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 8pt; text-align: left; ddo-char-set: 1; ddo-shrink-to-fit: true" />
+      <Control Type="AR.Field" Name="MAX変更理由1元1" DataField="MAX変更理由1元_Cal" Visible="0" Left="2556" Top="285" Width="375" Height="211" Text="'= [@MAX変更理由1元]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="MAX変更理由2元1" DataField="MAX変更理由2元_Cal" Visible="0" Left="3124" Top="285" Width="393" Height="211" Text="'= [@MAX変更理由2元]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooterSection1" Visible="0" Height="0" BackColor="16777215" KeepTogether="1" />
+    <Section Type="PageFooter" Name="PageFooterSection1" Height="219.9685" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooterSection1" Visible="0" Height="219.9685" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="予算コード款" Formula="= System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 1 ? &quot;&quot; : 予算コード.Substring(0, (予算コード.Length &gt;= 2 ? 2 : (予算コード.Length - 0))))" FieldType="None" />
+    <Field Name="予算コード項" Formula="= System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 3 ? &quot;&quot; : 予算コード.Substring(2, (予算コード.Length &gt;= 4 ? 2 : (予算コード.Length - 2))))" FieldType="None" />
+    <Field Name="予算残額" Formula="=予算現額 - 執行額" FieldType="None" />
+    <Field Name="金融機関" Formula="={伝票データ.銀行番号} + &quot;-&quot; +  {伝票データ.支店番号} + &quot;  &quot; + {伝票データ.金融機関名称}" FieldType="None" />
+    <Field Name="予算コード目" Formula="= System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 5 ? &quot;&quot; : 予算コード.Substring(4, (予算コード.Length &gt;= 6 ? 2 : (予算コード.Length - 4))))" FieldType="None" />
+    <Field Name="予算コード節" Formula="= System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 7 ? &quot;&quot; : 予算コード.Substring(6, (予算コード.Length &gt;= 8 ? 2 : (予算コード.Length - 6))))" FieldType="None" />
+    <Field Name="予算コード細" Formula="= System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 9 ? &quot;&quot; : 予算コード.Substring(8, (予算コード.Length &gt;= 10 ? 2 : (予算コード.Length - 8))))" FieldType="None" />
+    <Field Name="変更表示" Formula="=&quot;第&quot; +変更回数.ToString(&quot;F0&quot;) + &quot;回&quot;" FieldType="None" />
+    <Field Name="MAX契約金額元_Cal" Formula="= (System.Convert.ToDecimal(契約金額) &lt; 0m)? ( ((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length &lt;= 3 ? (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)) : (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Substring((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length - 3, 3))+ ((&quot;0000000000&quot; + (System.Convert.ToDecimal(契約金額) * -1m).ToString(&quot;F0&quot;)).Length &lt;= 10 ? (&quot;0000000000&quot; + (System.Convert.ToDecimal(契約金額) * -1m).ToString(&quot;F0&quot;)) : (&quot;0000000000&quot; + (System.Convert.ToDecimal(契約金額) * -1m).ToString(&quot;F0&quot;)).Substring((&quot;0000000000&quot; + (System.Convert.ToDecimal(契約金額) * -1m).ToString(&quot;F0&quot;)).Length - 10, 10))+ &quot;-&quot; ): ( ((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length &lt;= 3 ? (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)) : (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Substring((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length - 3, 3))+ ((&quot;0000000000&quot; + System.Convert.ToDecimal(契約金額).ToString(&quot;F0&quot;)).Length &lt;= 10 ? (&quot;0000000000&quot; + System.Convert.ToDecimal(契約金額).ToString(&quot;F0&quot;)) : (&quot;0000000000&quot; + System.Convert.ToDecimal(契約金額).ToString(&quot;F0&quot;)).Substring((&quot;0000000000&quot; + System.Convert.ToDecimal(契約金額).ToString(&quot;F0&quot;)).Length - 10, 10))+ &quot;+&quot; )" FieldType="None" />
+    <Field Name="MAX契約税額元_Cal" Formula="= (System.Convert.ToDecimal(契約消費税額) &lt; 0m)? ( ((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length &lt;= 3 ? (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)) : (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Substring((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length - 3, 3))+ ((&quot;0000000000&quot; + (System.Convert.ToDecimal(契約消費税額) * -1m).ToString(&quot;F0&quot;)).Length &lt;= 10 ? (&quot;0000000000&quot; + (System.Convert.ToDecimal(契約消費税額) * -1m).ToString(&quot;F0&quot;)) : (&quot;0000000000&quot; + (System.Convert.ToDecimal(契約消費税額) * -1m).ToString(&quot;F0&quot;)).Substring((&quot;0000000000&quot; + (System.Convert.ToDecimal(契約消費税額) * -1m).ToString(&quot;F0&quot;)).Length - 10, 10))+ &quot;-&quot; ): ( ((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length &lt;= 3 ? (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)) : (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Substring((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length - 3, 3))+ ((&quot;0000000000&quot; + System.Convert.ToDecimal(契約消費税額).ToString(&quot;F0&quot;)).Length &lt;= 10 ? (&quot;0000000000&quot; + System.Convert.ToDecimal(契約消費税額).ToString(&quot;F0&quot;)) : (&quot;0000000000&quot; + System.Convert.ToDecimal(契約消費税額).ToString(&quot;F0&quot;)).Substring((&quot;0000000000&quot; + System.Convert.ToDecimal(契約消費税額).ToString(&quot;F0&quot;)).Length - 10, 10))+ &quot;+&quot; )" FieldType="None" />
+    <Field Name="MAX契約日元_Cal" Formula="= ((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length &lt;= 3 ? (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)) : (&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Substring((&quot;000&quot; + SEQ.ToString(&quot;F0&quot;)).Length - 3, 3)) + 契約日" FieldType="None" />
+    <Field Name="MAX変更理由1元_Cal" FieldType="None" />
+    <Field Name="MAX変更理由2元_Cal" FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[public void ActiveReport_ReportStart()
+{
+	SetBgColorTransparentAllSections();
+	
+	if(!CheckDataSource()) return;
+	
+	ApplySort();
+	
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	
+	AddCol(dt, "SEQ3桁", typeof(string));
+	
+	AddCol(dt, "MAX変更理由1元1_Cal", typeof(string));
+	AddCol(dt, "MAX変更理由2元1_Cal", typeof(string));
+
+	AddCol(dt, "MAX変更理由1_Cal", typeof(string));
+	AddCol(dt, "MAX変更理由2_Cal", typeof(string));
+}
+
+/// <summary>
+/// FetchData：現在行のフィールドから値を取得し、計算して追加列へ格納する（行単位処理）。
+/// </summary>
+/// <param name="eof">データ終端フラグ</param>
+/// <returns>eof を返す</returns>
+public bool ActiveReport_FetchData(bool eof)
+{
+	try
+	{
+		if (eof) return eof;
+
+		long 連番SEQ = ToInt64Safe(rpt.Fields["SEQ"].Value);
+		
+		string 変更理由1 = ToStringSafe(rpt.Fields["変更理由1"].Value);
+		string 変更理由2 = ToStringSafe(rpt.Fields["変更理由2"].Value);
+
+		
+		string MAX変更理由1元_Cal = RightN("000" + 連番SEQ.ToString("0"), 3) + 変更理由1;
+		string MAX変更理由2元_Cal = RightN("000" + 連番SEQ.ToString("0"), 3) + 変更理由2;
+
+		rpt.CalculatedFields["MAX変更理由1元_Cal"].Value = MAX変更理由1元_Cal;
+		rpt.CalculatedFields["MAX変更理由2元_Cal"].Value = MAX変更理由2元_Cal;
+		
+		string 変更理由1_80 = Mid_4_本文(MAX変更理由1元_Cal, 80);
+		string 変更理由2_80 = Mid_4_本文(MAX変更理由2元_Cal, 80);
+
+
+		SetFieldValue("MAX変更理由1_Cal", 変更理由1_80);
+		SetFieldValue("MAX変更理由2_Cal", 変更理由2_80);
+
+		return eof;
+	}
+	catch
+	{
+		return true;
+	}
+}
+
+/// <summary>
+/// DataTable に列が存在しない場合のみ追加する（重複追加による例外回避）。
+/// </summary>
+private void AddCol(DataTable 対象データテーブル, string 追加列名, Type 列データ型)
+{
+	if (対象データテーブル == null) return;
+	if (!対象データテーブル.Columns.Contains(追加列名))
+		対象データテーブル.Columns.Add(new DataColumn(追加列名, 列データ型));
+}
+
+/// <summary>
+/// rpt.Fields に該当列が存在する場合、現在行へ値を書き込む。
+/// </summary>
+private void SetFieldValue(string フィールド名, object 設定値)
+{
+	if (rpt.Fields[フィールド名] != null)
+		rpt.Fields[フィールド名].Value = 設定値;
+}
+
+/// <summary>
+/// DBNull/null を空文字にして string へ安全に変換する。
+/// </summary>
+private string ToStringSafe(object 入力値)
+{
+	return (入力値 == null || 入力値 == DBNull.Value) ? "" : Convert.ToString(入力値);
+}
+
+/// <summary>
+/// DBNull/null/変換失敗を 0 として long へ安全に変換する。
+/// </summary>
+private long ToInt64Safe(object 入力値)
+{
+	if (入力値 == null || 入力値 == DBNull.Value) return 0;
+	try { return Convert.ToInt64(入力値); } catch { return 0; }
+}
+
+/// <summary>
+/// 右から指定文字数を返す（短い場合はそのまま返す）。
+///Right (ToText ({value}, 0), X)
+/// </summary>
+private string RightN(string 入力文字列, int 取得文字数)
+{
+	if (string.IsNullOrEmpty(入力文字列)) return "";
+	return (入力文字列.Length <= 取得文字数)
+		? 入力文字列
+		: 入力文字列.Substring(入力文字列.Length - 取得文字数, 取得文字数);
+}
+
+
+/*Mid (Maximum ({@MAX変更理由2元}, {伝票データ.メイン番号}), 4, 80)
+*/
+private string Mid_4_本文(string MAX変更理由, int 最大文字数)
+{
+	if (string.IsNullOrEmpty(MAX変更理由) || MAX変更理由.Length <= 3) return "";
+
+	int 取得文字数 = Math.Min(最大文字数, MAX変更理由.Length - 3);
+	return MAX変更理由.Substring(3, 取得文字数);
+}
+/// <summary>
+/// rpt.DataSource が存在し、System.Data.DataTable として有効か確認
+/// </summary>
+private bool CheckDataSource()
+{
+	// ブロック確認: DataSource が割り当てられているか（null でないか）を確認
+	if (rpt.DataSource == null)
+	{
+		return false;
+	}
+
+	// ブロック確認: DataSource を DataTable にキャストし、キャストの成功を確認
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (dt == null)
+	{
+		return false;
+	}
+
+	return true;
+}
+
+// rpt 内のすべてのセクションに対してテキスト系コントロールの背景色を透過に設定する
+private void SetBgColorTransparentAllSections()
+{
+	// 全セクションを順に処理
+	foreach (GrapeCity.ActiveReports.SectionReportModel.Section sec in rpt.Sections)
+	{
+		// セクション内のコントロールを順に処理
+		foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+		{
+			// TextBox の場合は背景を透過にする
+			if (ctrl is TextBox)
+			{
+				TextBox tbx = (TextBox) ctrl;
+				tbx.BackColor = System.Drawing.Color.Transparent;
+			}
+
+			// Label の場合は背景を透過にする
+			if (ctrl is Label)
+			{
+				GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+				lbl.BackColor = System.Drawing.Color.Transparent;
+			}
+		}
+	}
+}
+
+/// <summary>
+/// データソース（DataTable）を「メイン番号」昇順で並び替えて、帳票に再設定します。
+/// Crystal のソート順相当を ActiveReports 側で再現するための処理です。
+/// </summary>
+private void ApplySort()
+{
+	
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (!dt.Columns.Contains("メイン番号")) return; 
+	var dv2 = new System.Data.DataView(dt);
+	dv2.Sort = "メイン番号";
+	
+	rpt.DataSource = dv2.ToTable();
+	rpt.DataMember = null;
+}]]></Script>
+  <PageSettings LeftMargin="850" RightMargin="113" TopMargin="567" BottomMargin="283" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>
