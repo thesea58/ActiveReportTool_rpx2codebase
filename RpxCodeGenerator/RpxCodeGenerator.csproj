@@ -11,5 +11,8 @@
   <ItemGroup>
     <Compile Remove="output/**/*.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="output\" />
+  </ItemGroup>
 
 </Project>

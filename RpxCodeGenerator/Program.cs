@@ -2,7 +2,7 @@
 using RpxCodeGenerator.Parsers;
 
 // Configuration
-const string rpxDirectory = "../rpx_folder_only";
+const string rpxDirectory = "./rpx_folder";
 const string outputDirectory = "./output";
 
 // Optional input argument: absolute path of an RPX file or a folder containing RPX files.
