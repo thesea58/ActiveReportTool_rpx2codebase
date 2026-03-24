@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.2" PrintWidth="10204" DocumentName="KP072410" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: MS UI Gothic; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; vertical-align: top; ddo-char-set: 128" />
+    <Style Name="Heading1" Value="font-family: MS UI Gothic; font-size: 16pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: MS UI Gothic; font-size: 14pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading3" Value="font-family: MS UI Gothic; font-size: 13pt; font-style: normal; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeaderSection1" Visible="0" Height="321" BackColor="16777215" />
+    <Section Type="PageHeader" Name="PageHeaderSection1" Visible="0" Height="321" BackColor="16777215" />
+    <Section Type="Detail" Name="DetailSection1" Height="14280" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Shape" Name="Box1" Left="480" Top="1170" Width="9120" Height="13110" BackStyle="1" LineWeight="4" RoundingRadius="10" />
+      <Control Type="AR.Field" Name="名称1" DataField="名称" Left="3165" Top="2475" Width="6060" Height="345" Text="名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text1" Left="8250" Top="45" Width="1530" Height="1005" Caption="○ " Style="color: Black; font-family: ＭＳ 明朝; font-size: 42pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text2" Left="75" Top="231" Width="9930" Height="495" Caption="工事（業務）予定価格 " Style="color: Black; font-family: ＭＳ Ｐゴシック; font-size: 24pt; font-weight: bold; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text3" Left="2685" Top="4877" Width="615" Height="450" Caption="" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="決裁額1" DataField="決裁額" Left="3509.858" Top="4185.071" Width="2040" Height="278" Text="決裁額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; text-align: left; vertical-align: middle; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text4" Left="8430" Top="231" Width="1020" Height="495" Caption="秘" Style="color: Black; font-family: ＭＳ Ｐゴシック; font-size: 24pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text5" Left="7875" Top="825" Width="2332" Height="375" Caption="両毛市水道部 " Style="color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; font-weight: bold; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text6" Left="45" Top="9548" Width="330" Height="3165" Caption="" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text7" Left="765" Top="1305" Width="2422" Height="345" Caption="両毛市長" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text8" Left="585" Top="2475" Width="2722" Height="375" Caption="1．工事（業務）名" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text9" Left="585" Top="3390" Width="2460" Height="375" Caption="１．工事施工個所" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text10" Left="585" Top="4185" Width="2467" Height="375" Caption="１．設　　計　　額" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text11" Left="585" Top="4905" Width="2467" Height="375" Caption="１．予　定　価　格" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="入札日1" DataField="入札日" Left="2130" Top="1740" Width="6375" Height="345" Text="'= [@入札日]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text12" Left="585" Top="5850" Width="2467" Height="375" Caption="１．予定価格の入" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text13" Left="585" Top="6293" Width="2467" Height="375" Caption="　　札書比較価格" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text14" Left="585" Top="7913" Width="2467" Height="375" Caption="１．制　限　価　格" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text15" Left="585" Top="9818" Width="2467" Height="375" Caption="１．制限価格の入" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text16" Left="585" Top="10238" Width="2467" Height="375" Caption="　　札書比較価格" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 16pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text17" Left="720" Top="12338" Width="7050" Height="450" Caption="　　上 記 の と お り 決 定 す る。" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 22pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text18" Left="167" Top="7448" Width="268" Height="2670" Caption="" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="場所1" DataField="場所" Left="3300" Top="3390" Width="5925" Height="345" Text="場所" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text19" Left="3255" Top="4185" Width="255" Height="278" Caption="\" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text20" Left="3255" Top="4905" Width="255" Height="278" Caption="\" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text21" Left="3255" Top="6293" Width="255" Height="278" Caption="\" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text22" Left="3240" Top="5790" Width="3165" Height="255" Caption="※予定価格の105分の100" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text23" Left="3240" Top="7448" Width="3840" Height="255" Caption="※予定価格の10分の8" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text24" Left="3240" Top="9548" Width="3840" Height="255" Caption="※制限価格の105分の100" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="最低価格表示1" DataField="最低価格表示_Cal" Left="3255" Top="8038" Width="6090.26" Height="261" Text="'= [@最低価格表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="最低価格表示2" DataField="最低価格表示_Cal" Left="3255" Top="10293" Width="6090.26" Height="261" Text="'= [@最低価格表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line1" X1="3180" Y1="2940" X2="9135" Y2="2940" LineWeight="3" />
+      <Control Type="AR.Line" Name="Line2" X1="3180" Y1="3810" X2="9120" Y2="3810" LineWeight="3" />
+      <Control Type="AR.Line" Name="Line3" X1="3195" Y1="4635" X2="9120" Y2="4635" LineWeight="3" />
+      <Control Type="AR.Line" Name="Line4" X1="3180" Y1="5340" X2="9120" Y2="5340" LineWeight="3" />
+      <Control Type="AR.Line" Name="Line5" X1="3075" Y1="6743" X2="9180" Y2="6743" LineWeight="3" />
+      <Control Type="AR.Line" Name="Line6" X1="2970" Y1="10628" X2="9195" Y2="10628" LineWeight="3" />
+      <Control Type="AR.Line" Name="Line7" X1="3030" Y1="8378" X2="9165" Y2="8378" LineWeight="3" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooterSection1" Visible="0" Height="321" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="ReportFooterSection1" Visible="0" Height="321" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="\\G0101w2s\Kaikei.Net\C#90app\企業会計\KK999_共通\KK999Csp\KK072411-C01.xsd" Pattern="//伝票データ" />
+  </DataSources>
+  <CalculatedFields>
+    <Field Name="最低価格表示_Cal" Formula="= 最低制限価格区分 == &quot;1&quot; ? &quot;\\&quot; : &quot;&quot;.PadLeft(122, '￣');" FieldType="None" />
+    <Field Name="入札日" Formula="=System.String.IsNullOrEmpty(入札年月日名称)? &quot;&quot;: ( (入札年月日名称.Length &lt;= 2 ? &quot;&quot; : ( 入札年月日名称.Length &lt; 5 ? 入札年月日名称.Substring(2, 入札年月日名称.Length - 2) : 入札年月日名称.Substring(2,3) )) + &quot;  &quot; + (入札年月日名称.Length &lt;= 5 ? &quot;&quot; : ( 入札年月日名称.Length &lt; 7 ? 入札年月日名称.Substring(5, 入札年月日名称.Length - 5) : 入札年月日名称.Substring(5,2) )) + &quot;  &quot; + (入札年月日名称.Length &lt;= 7 ? &quot;&quot; : ( 入札年月日名称.Substring(7,1) )) + &quot;  &quot; + (入札年月日名称.Length &lt;= 8 ? &quot;&quot; : ( 入札年月日名称.Length &lt; 10 ? 入札年月日名称.Substring(8, 入札年月日名称.Length - 8): 入札年月日名称.Substring(8,2) )) + &quot;  &quot; + (入札年月日名称.Length &lt;= 10 ? &quot;&quot; : ( 入札年月日名称.Length &lt; 12 ? 入札年月日名称.Substring(10, 入札年月日名称.Length - 10): 入札年月日名称.Substring(10,2) )) + &quot;  &quot; + )" FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[private void DetailSection1_Format()
+{
+	#region set BackColor transparent
+	
+	SetBgColerTransparent(DetailSection1);
+
+	#endregion
+	
+}
+
+private void SetBgColerTransparent(GrapeCity.ActiveReports.SectionReportModel.Section sec)
+{
+	foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+	{
+		if (ctrl is TextBox)
+		{
+			TextBox tbx = (TextBox) ctrl;
+			tbx.BackColor = System.Drawing.Color.Transparent; 
+		}
+		if (ctrl is Label )
+		{
+			GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+			lbl.BackColor = System.Drawing.Color.Transparent;
+		}
+	}
+}]]></Script>
+  <PageSettings LeftMargin="851" RightMargin="851" TopMargin="1134" BottomMargin="851" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

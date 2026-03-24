@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="16214" DocumentName="KP091040" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: MS UI Gothic; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; vertical-align: top; ddo-char-set: 128" />
+    <Style Name="Heading1" Value="font-family: MS UI Gothic; font-size: 16pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: MS UI Gothic; font-size: 14pt; font-style: normal; font-weight: bold" />
+    <Style Name="Heading3" Value="font-family: MS UI Gothic; font-size: 13pt; font-style: normal; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="Section1" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="Section2" Height="1769.953" BackColor="16777215">
+      <Control Type="AR.Field" Name="Field23" DataField="備考1" Visible="0" Left="405" Top="795" Width="15540" Height="211" Text="備考1" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field11" Left="14325" Top="750" Width="765" Height="182" Text="PageNumber" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" SummaryType="4" SummaryRunning="2" />
+      <Control Type="AR.Label" Name="Text10" Left="15150" Top="750" Width="240" Height="182" Caption="頁" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text9" Left="8370" Top="1320" Width="3840" Height="211" Caption="執行額" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text13" Left="12330" Top="1455" Width="1830" Height="211" Caption="予算残額" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text8" Left="6150" Top="1455" Width="2115" Height="211" Caption="予算現額" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field37" DataField="企業名称" Left="360" Top="585" Width="4800" Height="211" Text="企業名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field38" DataField="帳票ID" Left="360" Top="375" Width="2130" Height="211" Text="帳票ID" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field39" DataField="和暦2" Left="2940" Top="375" Width="2535" Height="345" Text="和暦2" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field40" DataField="和暦4" Left="11940" Top="1035" Width="2085" Height="211" Text="和暦4" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field41" DataField="和暦1" Visible="0" Left="4545" Top="375" Width="1755" Height="345" Text="和暦1" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field2" DataField="見出し" Left="360" Top="1035" Width="3675" Height="199" Text="'= [@見出し]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text14" Left="450" Top="1455" Width="1440" Height="199" Caption="予  算  科  目" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text5" Left="8370" Top="1545" Width="1905" Height="199" Caption="当月予定額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text4" Left="14205" Top="1455" Width="1215" Height="199" Caption="執行率" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text11" Left="14070" Top="1035" Width="1320" Height="199" Caption="（単位  円）" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text15" Left="10335" Top="1560" Width="1905" Height="199" Caption="予定累計" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="帳票1" DataField="帳票サブタイトル" Left="12960" Top="465" Width="2430" Height="211" Text="帳票サブタイトル" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field36" DataField="帳票名" Left="360" Top="360" Width="15090" Height="360" Text="帳票名" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 14pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="所属表示1" DataField="所属表示" Left="360" Top="795" Width="6200" Height="202" Text="'= [@所属表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Box1Top" X1="330" Y1="1290" X2="15465" Y2="1290" LineWeight="2" />
+      <Control Type="AR.Line" Name="Box1Left" X1="339.5905" Y1="1769.953" X2="339.5905" Y2="1289.953" LineWeight="2" />
+      <Control Type="AR.Line" Name="Box1Right" X1="15455.62" Y1="1770" X2="15455.62" Y2="1290" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line2" X1="345" Y1="1770" X2="15465" Y2="1770" />
+      <Control Type="AR.Line" Name="Line3" X1="6105" Y1="1290" X2="6105" Y2="1770" />
+      <Control Type="AR.Line" Name="Line6" X1="14160" Y1="1290" X2="14160" Y2="1770" />
+      <Control Type="AR.Line" Name="Line7" X1="8295" Y1="1305" X2="8295" Y2="1770" />
+      <Control Type="AR.Line" Name="Line1" X1="12255" Y1="1305" X2="12255" Y2="1770" />
+      <Control Type="AR.Line" Name="Line12" X1="10290" Y1="1530" X2="10290" Y2="1770" />
+      <Control Type="AR.Line" Name="Line13" X1="8295" Y1="1530" X2="12270" Y2="1530" />
+    </Section>
+    <Section Type="GroupHeader" Name="Section14" Height="0.5669292" DataField="体系区分" BackColor="16777215" NewPage="1" KeepTogether="1">
+      <Control Type="AR.CrossSectionBox" Name="CrossSectionBox1" Left="329.9528" Top="0" Right="15465.26" Bottom="6.169081E-05" LineWeight="2" />
+    </Section>
+    <Section Type="GroupHeader" Name="Section16" Visible="0" Height="220" DataField="科目コード_款" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupHeader" Name="Section18" Visible="0" Height="220" DataField="科目コード_項" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupHeader" Name="Section20" Visible="0" Height="220" DataField="科目コード_目" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupHeader" Name="Section22" Visible="0" Height="220" DataField="科目コード_節" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupHeader" Name="Section24" Visible="0" Height="220" DataField="予算コード" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Line" Name="Box1Bottom" X1="330" Y1="908.9999" X2="15465" Y2="908.9999" LineWeight="0" />
+    </Section>
+    <Section Type="Detail" Name="Section3" Height="392" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="Field7" DataField="予算名称" Left="390" Top="75" Width="5625" Height="240" Text="予算名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field15" DataField="当月予定額" Left="8415" Top="75" Width="1770" Height="240" Text="当月予定額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field16" DataField="累計予定額" Left="10365" Top="75" Width="1800" Height="240" Text="累計予定額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field17" Left="12345" Top="75" Width="1725" Height="240" Text="'= [@予算残額]" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field18" DataField="執行率" Left="13998.61" Top="74.83465" Width="1421.29" Height="240" Text="'= [@執行率]" OutputFormat="#,##0.00" CanGrow="0" CanShrink="1" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field19" DataField="予算現額_Cal" Left="6210" Top="75" Width="2010" Height="240" Text="'= [@予算現額]" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line3Section3" X1="6105" Y1="0" X2="6105" Y2="391.748" />
+      <Control Type="AR.Line" Name="Line6Section3" X1="14160" Y1="0" X2="14160" Y2="391.748" />
+      <Control Type="AR.Line" Name="Line7Section3" X1="8295" Y1="0" X2="8295" Y2="391.748" />
+      <Control Type="AR.Line" Name="Line1Section3" X1="12255" Y1="0" X2="12255" Y2="391.748" />
+      <Control Type="AR.Line" Name="Line12Section3" X1="10290" Y1="0" X2="10290" Y2="391.748" />
+    </Section>
+    <Section Type="GroupFooter" Name="Section25" Visible="0" Height="220" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupFooter" Name="Section23" Visible="0" Height="220" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupFooter" Name="Section21" Visible="0" Height="220" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupFooter" Name="Section19" Visible="0" Height="220" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupFooter" Name="Section17" Visible="0" Height="220" BackColor="16777215" KeepTogether="1" />
+    <Section Type="GroupFooter" Name="Section15" Height="11.33858" BackColor="16777215" KeepTogether="1" />
+    <Section Type="PageFooter" Name="Section5" Height="323.1496" BackColor="16777215" CanGrow="0">
+      <Control Type="AR.Field" Name="Field9" Visible="0" Left="13206" Top="0" Width="2300" Height="210" Text="'= [@タイムスタンプ]" CanGrow="0" Style="background-color: White; color: Black; font-family: Meiryo UI; font-size: 8pt; text-align: right; ddo-char-set: 1" />
+    </Section>
+    <Section Type="ReportFooter" Name="Section4" Visible="0" Height="28" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="\\G0101w2s\kaikei.net\C#90app\企業会計\KK999_共通\KK999Csp\KK090040-C01.xsd" Pattern="//ヘッダデータ" />
+  </DataSources>
+  <CalculatedFields>
+    <Field Name="見出し" Formula="= 体系区分 == &quot;4&quot; ? &quot;（ 収益的収入 ）&quot; : (体系区分 == &quot;5&quot; ? &quot;（ 収益的支出 ）&quot;: (体系区分 == &quot;6&quot; ? &quot;（ 資本的収入 ）&quot;: (体系区分 == &quot;7&quot; ? &quot;（ 資本的支出 ）&quot;: (体系区分 == &quot;8&quot; ? &quot;（ たな卸資産購入限度額 ）&quot;: (体系区分 = &quot;9&quot; ? &quot;（ 特別勘定 ）&quot;: &quot;&quot;)))))" FieldType="None" />
+    <Field Name="所属表示" Formula="= 備考1" FieldType="None" />
+    <Field Name="予算現額_Cal" Formula="= 当初予算額 + 補正予算額 + 流用増減額 + 予備費支出額 + 繰越予算額" FieldType="None" />
+    <Field Name="科目コード_細" FieldType="None" />
+    <Field Name="執行累計_temp" FieldType="None" />
+    <Field Name="当月執行額_temp" FieldType="None" />
+    <Field Name="当初予算額_temp" FieldType="None" />
+    <Field Name="補正予算額_temp" FieldType="None" />
+    <Field Name="予備費支出額_temp" FieldType="None" />
+    <Field Name="流用増減額_temp" FieldType="None" />
+    <Field Name="予算コード_Cal" Formula="= &quot;(&quot; + (System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 1 ? &quot;&quot; : 予算コード.Substring(0, (予算コード.Length &gt;= 2 ? 2 : (予算コード.Length - 0))))) + &quot;-&quot; + (System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 3 ? &quot;&quot; : 予算コード.Substring(2, (予算コード.Length &gt;= 4 ? 2 : (予算コード.Length - 2))))) + &quot;-&quot; + (System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 5 ? &quot;&quot; : 予算コード.Substring(4, (予算コード.Length &gt;= 6 ? 2 : (予算コード.Length - 4))))) + &quot;-&quot; + (System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 7 ? &quot;&quot; : 予算コード.Substring(6, (予算コード.Length &gt;= 8 ? 2 : (予算コード.Length - 6))))) + &quot;-&quot; + (System.String.IsNullOrEmpty(予算コード) ? &quot;&quot; : (予算コード.Length &lt; 9 ? &quot;&quot; : 予算コード.Substring(8, (予算コード.Length &gt;= 10 ? 2 : (予算コード.Length - 8))))) + &quot;)&quot; " FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[using System.Linq;
+
+bool　ds存体;
+private Dictionary<string, decimal> totalGroup款_執行累計1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup項_執行累計1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup目_執行累計1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup節_執行累計1 = new Dictionary<string, decimal>();
+
+private Dictionary<string, decimal> totalGroup款_当月執行額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup項_当月執行額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup目_当月執行額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup節_当月執行額1 = new Dictionary<string, decimal>();
+
+private Dictionary<string, decimal> totalGroup款_当初予算額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup項_当初予算額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup目_当初予算額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup節_当初予算額1 = new Dictionary<string, decimal>();
+
+private Dictionary<string, decimal> totalGroup款_補正予算額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup項_補正予算額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup目_補正予算額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup節_補正予算額1 = new Dictionary<string, decimal>();
+
+private Dictionary<string, decimal> totalGroup款_予備費支出額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup項_予備費支出額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup目_予備費支出額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup節_予備費支出額1 = new Dictionary<string, decimal>();
+
+private Dictionary<string, decimal> totalGroup款_流用増減額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup項_流用増減額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup目_流用増減額1 = new Dictionary<string, decimal>();
+private Dictionary<string, decimal> totalGroup節_流用増減額1 = new Dictionary<string, decimal>();
+
+/// <summary>
+/// レポート開始時（ReportStart）に初期設定を行う。
+/// - データソースの妥当性チェック
+/// - 並び順（ソート）の適用
+/// - CrossSectionBox の罫線設定（必要時のみ）
+/// </summary>
+public void ActiveReport_ReportStart()
+{
+	
+	if (CrossSectionBox1 != null)
+		CrossSectionBox1.CloseBorder = true;
+	
+	SetBgColorTransparentAllSections();
+	
+	ds存体 = CheckDataSource();
+	if (!ds存体) return;
+	
+	ApplySort_SumGroup();
+
+}
+
+/// <summary>
+/// Section3 の Format イベント。
+/// Crystal Reports の計算式（予算残額／執行率）を再現して、表示フィールドに反映する。
+/// </summary>
+public void Section3_Format()
+{
+	if (!ds存体) return;
+	
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (!dt.Columns.Contains("累計予定額")) return;  
+	/* CR Formula: 予算残額
+	{@予算現額} - {帳票データ.累計予定額}
+	*/
+	this.Field17.Text = (TryDecimal(this.Field19.Value) - TryDecimal(rpt.Fields["累計予定額"].Value)).ToString("#,##0");
+	
+	/* CR Formula: 執行率
+	if {帳票データ.累計予定額} = 0 or {@予算現額} = 0 then 0
+	else {帳票データ.累計予定額}/{@予算現額}*100
+	*/
+	if (TryDecimal(rpt.Fields["累計予定額"].Value) == 0 || TryDecimal(this.Field19.Value) == 0)
+	{
+		this.Field18.Value = 0;
+	}
+	else
+	{
+		this.Field18.Value = (TryDecimal(rpt.Fields["累計予定額"].Value) / TryDecimal(this.Field19.Value)) * 100;
+	}
+	
+	/*
+	if {@予算現額} = 0 then
+	    // 非表示 true
+	    true
+	else
+	    // 非表示 false
+	    false
+	*/
+	this.Section3.Visible = (TryDecimal(this.Field19.Value) != 0);
+}
+
+
+public void Section5_Format()
+{
+	if (!ds存体) return;
+	
+	#region 非表示
+	this.Field9.Visible = rpt.Fields["見出区分"].Value.ToString().Contains("TIMESTAMPON");
+	#endregion
+	
+	#region Formula [@タイムスタンプ]
+	// カルチャの「言語-国/地域」を「日本語-日本」に設定します。
+	System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("ja-JP");
+	// 和暦を表すクラスです。
+	System.Globalization.JapaneseCalendar jp = new System.Globalization.JapaneseCalendar();
+	
+	// 現在のカルチャで使用する暦を、和暦に設定します。
+	ci.DateTimeFormat.Calendar = jp;
+	// 「書式」「カルチャの書式情報」を使用し、文字列に変換します。
+	this.Field9.Text = DateTime.Now.ToString("gg yy年MM月dd日 HH:mm:ss", ci);
+	#endregion
+	
+}
+
+
+/// <summary>
+/// object を decimal に変換するユーティリティ。
+/// 変換に失敗した場合は 0 を返し、帳票計算中の例外を防ぐ。
+/// </summary>
+/// <param name="value">数値として扱いたい値。</param>
+/// <returns>変換後の decimal。失敗時は 0。</returns>
+decimal TryDecimal(object value)
+{
+	
+	decimal outValue = 0M;
+	if (decimal.TryParse(value.ToString(), out outValue))
+	{
+		return outValue;
+	}
+	else
+	{
+		return 0M;
+	}
+}
+
+/// <summary>
+/// レポートのデータソースに対して、Crystal Reports 側の並び順に近い形でソートを適用する。
+/// 予算コードから科目コードの階層キー（款/項/目/節）を生成し、体系区分→階層→予算コードの順で並べ替える。
+/// </summary>
+private void ApplySort_SumGroup()
+{
+	
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (!dt.Columns.Contains("予算コード")) return; 
+	
+	AddCol(dt, "科目コード_款", typeof(string));
+	AddCol(dt, "科目コード_項", typeof(string));
+	AddCol(dt, "科目コード_目", typeof(string));
+	AddCol(dt, "科目コード_節", typeof(string));
+	
+	
+	//不使用
+	AddCol(dt, "執行累計1_temp", typeof(string));
+	AddCol(dt, "当月執行額1_temp", typeof(string));
+	AddCol(dt, "当初予算額1_temp", typeof(string));
+	AddCol(dt, "補正予算額1_temp", typeof(string));
+	
+	AddCol(dt, "予備費支出額1_temp", typeof(string));
+	AddCol(dt, "流用増減額1_temp", typeof(string));
+
+	for (int r = 0; r < dt.Rows.Count; r++)
+	{
+		string 予算コード_temp = Convert.ToString(dt.Rows[r]["予算コード"]);
+		//{帳票データ.予算コード}[ 1 TO 2 ]
+		dt.Rows[r]["科目コード_款"] = GetCrystalSubstring(予算コード_temp, 1, 2);
+		//{帳票データ.予算コード}[ 1 TO 4 ]
+		dt.Rows[r]["科目コード_項"] = GetCrystalSubstring(予算コード_temp, 1, 4);
+		//{帳票データ.予算コード}[ 1 TO 6 ]
+		dt.Rows[r]["科目コード_目"] = GetCrystalSubstring(予算コード_temp, 1, 6);
+		//{帳票データ.予算コード}[ 1 TO 8 ]
+		dt.Rows[r]["科目コード_節"] = GetCrystalSubstring(予算コード_temp, 1, 8);
+		
+		
+		//不使用 
+		/*if {帳票データ.予算サイン} ='1'  then {帳票データ.累計予定額}
+		else  0
+		*/
+		dt.Rows[r]["執行累計1_temp"] = Convert.ToString(dt.Rows[r]["予算サイン"]) == "1" ? Convert.ToString(dt.Rows[r]["累計予定額"]) : "0";
+		/*if {帳票データ.予算サイン} ='1'  then {帳票データ.当月予定額}
+ 		else  0
+		*/
+		dt.Rows[r]["当月執行額1_temp"] = Convert.ToString(dt.Rows[r]["予算サイン"]) == "1" ? Convert.ToString(dt.Rows[r]["当月予定額"]) : "0";
+		/*if {帳票データ.予算サイン} ='1'  then {帳票データ.当初予算額}
+ 		else  0
+		*/
+		dt.Rows[r]["当初予算額1_temp"] = Convert.ToString(dt.Rows[r]["予算サイン"]) == "1" ? Convert.ToString(dt.Rows[r]["当初予算額"]) : "0";
+		/*if {帳票データ.予算サイン} = '1' then{帳票データ.補正予算額}
+ 		else 0
+		*/
+		dt.Rows[r]["補正予算額1_temp"] = Convert.ToString(dt.Rows[r]["予算サイン"]) == "1" ? Convert.ToString(dt.Rows[r]["補正予算額"]) : "0";
+		/*if {帳票データ.予算サイン} = '1' then{帳票データ.予備費支出額}
+		 else 0
+		*/
+		dt.Rows[r]["予備費支出額1_temp"] = Convert.ToString(dt.Rows[r]["予算サイン"]) == "1" ? Convert.ToString(dt.Rows[r]["予備費支出額"]) : "0";
+		/*if {帳票データ.予算サイン} = '1' then{帳票データ.流用増減額}
+ 		else 0
+		*/
+		dt.Rows[r]["流用増減額1_temp"] = Convert.ToString(dt.Rows[r]["予算サイン"]) == "1" ? Convert.ToString(dt.Rows[r]["流用増減額"]) : "0";
+		//
+	}
+	
+	//末尾に残っている「予算現額_Cal = 0」の行（実質的に空データ）を削除する。
+	//これにより、明細が無いのに次ページが発生して PageHeader だけが余分に印字される（最後の空白ページ）ケースを防止する。
+	for (int i = dt.Rows.Count - 1; i >= 0; i--)
+	{
+		decimal val = TryDecimal(dt.Rows[i]["当初予算額"]) + TryDecimal(dt.Rows[i]["補正予算額"]) 
+			+ TryDecimal(dt.Rows[i]["流用増減額"]) + TryDecimal(dt.Rows[i]["予備費支出額"]) + TryDecimal(dt.Rows[i]["繰越予算額"]);
+
+		if (val == 0m)
+		{
+			dt.Rows.RemoveAt(i);   
+		}
+		else
+		{
+			break;                 
+		}
+	}
+
+	var dv2 = new System.Data.DataView(dt);
+	
+	dv2.Sort = "体系区分 ASC, 科目コード_款 ASC, 科目コード_項 ASC, 科目コード_目 ASC, 科目コード_節 ASC, 予算コード ASC";
+	dt = dv2.ToTable();
+	
+	rpt.DataSource = dt;
+	rpt.DataMember = null;
+	
+	/*
+	if {帳票データ.予算コード}[ 3 TO 10 ] = '00000000' then Sum({@執行累計1},{@科目コード(款)})
+		else if {帳票データ.予算コード}[ 5 TO 10 ] = '000000' then Sum({@執行累計1},{@科目コード(項)})
+		ELSE if {帳票データ.予算コード}[ 7 TO 10 ] = '0000' then Sum({@執行累計1},{@科目コード(目)})
+		ELSE if {帳票データ.予算コード}[ 9 TO 10 ] = '00' then Sum({@執行累計1},{@科目コード(節)})
+	*/
+	this.totalGroup款_執行累計1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 3, 10) == "00000000")
+		.Sum(r => Convert.ToDecimal(r["執行累計1_temp"]))
+		);
+	this.totalGroup項_執行累計1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 5, 10) == "000000")
+		.Sum(r => Convert.ToDecimal(r["執行累計1_temp"]))
+		);
+	this.totalGroup目_執行累計1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 7, 10) == "0000")
+		.Sum(r => Convert.ToDecimal(r["執行累計1_temp"]))
+		);
+	this.totalGroup節_執行累計1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"])
+		+ "|" + Convert.ToString(r["科目コード_節"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 9, 10) == "00")
+		.Sum(r => Convert.ToDecimal(r["執行累計1_temp"]))
+		);
+	
+	/* if {帳票データ.予算コード}[ 3 TO 10 ] = '00000000' then Sum ({@当月執行額1},{@科目コード(款)} )
+		else if {帳票データ.予算コード}[ 5 TO 10 ] = '000000' then Sum ({@当月執行額1},{@科目コード(項)} )
+		ELSE if {帳票データ.予算コード}[ 7 TO 10 ] = '0000' then Sum ({@当月執行額1},{@科目コード(目)} )
+		ELSE if {帳票データ.予算コード}[ 9 TO 10 ] = '00' then Sum ({@当月執行額1},{@科目コード(節)} )
+	*/
+	this.totalGroup款_当月執行額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 3, 10) == "00000000")
+		.Sum(r => Convert.ToDecimal(r["当月執行額1_temp"]))
+		);
+	
+	this.totalGroup項_当月執行額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 5, 10) == "000000")
+		.Sum(r => Convert.ToDecimal(r["当月執行額1_temp"]))
+		);
+	
+	this.totalGroup目_当月執行額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 7, 10) == "0000")
+		.Sum(r => Convert.ToDecimal(r["当月執行額1_temp"]))
+		);
+	
+	this.totalGroup節_当月執行額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"])
+		+ "|" + Convert.ToString(r["科目コード_節"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 9, 10) == "00")
+		.Sum(r => Convert.ToDecimal(r["当月執行額1_temp"]))
+		);
+	
+	/*if {帳票データ.予算コード}[ 3 TO 10 ] = '00000000' then Sum ({@当初予算額1},{@科目コード(款)} )
+		else if {帳票データ.予算コード}[ 5 TO 10 ] = '000000' then Sum ({@当初予算額1},{@科目コード(項)} )
+		ELSE if {帳票データ.予算コード}[ 7 TO 10 ] = '0000' then Sum ({@当初予算額1},{@科目コード(目)} )
+		ELSE if {帳票データ.予算コード}[ 9 TO 10 ] = '00' then Sum ({@当初予算額1},{@科目コード(節)} )
+	*/
+	this.totalGroup款_当初予算額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 3, 10) == "00000000")
+		.Sum(r => Convert.ToDecimal(r["当初予算額1_temp"]))
+		);
+	
+	this.totalGroup項_当初予算額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 5, 10) == "000000")
+		.Sum(r => Convert.ToDecimal(r["当初予算額1_temp"]))
+		);
+	
+	this.totalGroup目_当初予算額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 7, 10) == "0000")
+		.Sum(r => Convert.ToDecimal(r["当初予算額1_temp"]))
+		);
+	
+	this.totalGroup節_当初予算額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"])
+		+ "|" + Convert.ToString(r["科目コード_節"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 9, 10) == "00")
+		.Sum(r => Convert.ToDecimal(r["当初予算額1_temp"]))
+		);
+	
+	/* if {帳票データ.予算コード}[ 3 TO 10 ] = '00000000' then Sum ({@補正予算額1},{@科目コード(款)} )
+		else if {帳票データ.予算コード}[ 5 TO 10 ] = '000000' then Sum ({@補正予算額1},{@科目コード(項)} )
+		ELSE if {帳票データ.予算コード}[ 7 TO 10 ] = '0000' then Sum ({@補正予算額1},{@科目コード(目)} )
+		ELSE if {帳票データ.予算コード}[ 9 TO 10 ] = '00' then Sum ({@補正予算額1},{@科目コード(節)} )
+	*/
+	this.totalGroup款_補正予算額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 3, 10) == "00000000")
+		.Sum(r => Convert.ToDecimal(r["補正予算額1_temp"]))
+		);
+	
+	this.totalGroup項_補正予算額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 5, 10) == "000000")
+		.Sum(r => Convert.ToDecimal(r["補正予算額1_temp"]))
+		);
+	
+	this.totalGroup目_補正予算額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 7, 10) == "0000")
+		.Sum(r => Convert.ToDecimal(r["補正予算額1_temp"]))
+		);
+	
+	this.totalGroup節_補正予算額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"])
+		+ "|" + Convert.ToString(r["科目コード_節"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 9, 10) == "00")
+		.Sum(r => Convert.ToDecimal(r["補正予算額1_temp"]))
+		);
+	
+	/*if {帳票データ.予算コード}[ 3 TO 10 ] = '00000000' then Sum ({@予備費支出額1},{@科目コード(款)} )
+		else if {帳票データ.予算コード}[ 5 TO 10 ] = '000000' then Sum ({@予備費支出額1},{@科目コード(項)} )
+		ELSE if {帳票データ.予算コード}[ 7 TO 10 ] = '0000' then Sum ({@予備費支出額1},{@科目コード(目)} )
+		ELSE if {帳票データ.予算コード}[ 9 TO 10 ] = '00' then Sum ({@予備費支出額1},{@科目コード(節)} )
+		*/
+	this.totalGroup款_予備費支出額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 3, 10) == "00000000")
+		.Sum(r => Convert.ToDecimal(r["予備費支出額1_temp"]))
+		);
+	
+	this.totalGroup項_予備費支出額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 5, 10) == "000000")
+		.Sum(r => Convert.ToDecimal(r["予備費支出額1_temp"]))
+		);
+	
+	this.totalGroup目_予備費支出額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 7, 10) == "0000")
+		.Sum(r => Convert.ToDecimal(r["予備費支出額1_temp"]))
+		);
+	
+	this.totalGroup節_予備費支出額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"])
+		+ "|" + Convert.ToString(r["科目コード_節"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 9, 10) == "00")
+		.Sum(r => Convert.ToDecimal(r["予備費支出額1_temp"]))
+		);
+	
+	/*if {帳票データ.予算コード}[ 3 TO 10 ] = '00000000' then Sum ({@流用増減額1},{@科目コード(款)} )
+		else if {帳票データ.予算コード}[ 5 TO 10 ] = '000000' then Sum ({@流用増減額1},{@科目コード(項)} )
+		ELSE if {帳票データ.予算コード}[ 7 TO 10 ] = '0000' then Sum ({@流用増減額1},{@科目コード(目)} )
+		ELSE if {帳票データ.予算コード}[ 9 TO 10 ] = '00' then Sum ({@流用増減額1},{@科目コード(節)} )
+		*/
+	this.totalGroup款_流用増減額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 3, 10) == "00000000")
+		.Sum(r => Convert.ToDecimal(r["流用増減額1_temp"]))
+		);
+	
+	this.totalGroup項_流用増減額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 5, 10) == "000000")
+		.Sum(r => Convert.ToDecimal(r["流用増減額1_temp"]))
+		);
+	
+	this.totalGroup目_流用増減額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 7, 10) == "0000")
+		.Sum(r => Convert.ToDecimal(r["流用増減額1_temp"]))
+		);
+	
+	this.totalGroup節_流用増減額1 =
+		dt.AsEnumerable()
+		.GroupBy(r => Convert.ToString(r["体系区分"]) + "|" + Convert.ToString(r["科目コード_款"])
+		+ "|" + Convert.ToString(r["科目コード_項"]) + "|" + Convert.ToString(r["科目コード_目"])
+		+ "|" + Convert.ToString(r["科目コード_節"]))
+		.ToDictionary(
+		g => g.Key,
+		g => g.Where(r => GetCrystalSubstring(Convert.ToString(r["予算コード"]), 9, 10) == "00")
+		.Sum(r => Convert.ToDecimal(r["流用増減額1_temp"]))
+		);
+}
+
+/// <summary>
+/// rpt.DataSource が存在し、System.Data.DataTable として有効か確認
+/// </summary>
+private bool CheckDataSource()
+{
+	// ブロック確認: DataSource が割り当てられているか（null でないか）を確認
+	if (rpt.DataSource == null)
+	{
+		return false;
+	}
+
+	// ブロック確認: DataSource を DataTable にキャストし、キャストの成功を確認
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (dt == null)
+	{
+		return false;
+	}
+
+	return true;
+}
+
+/// <summary>
+/// DataTable に指定した列が存在しない場合のみ、新しい列を追加する。
+/// 既存列がある場合は何もしない（重複追加による例外回避）。
+/// </summary>
+/// <param name="dt">対象の DataTable。</param>
+/// <param name="colName">追加する列名。</param>
+/// <param name="type">列のデータ型。</param>
+private void AddCol(System.Data.DataTable dt, string colName, System.Type type)
+{
+	if (!dt.Columns.Contains(colName))
+		dt.Columns.Add(new System.Data.DataColumn(colName, type));
+}
+
+/// <summary>
+/// 入力文字列からstart〜endまで（終端含む）の部分文字列を返す。CrystalReportのメソッドと同様（1-based）
+/// </summary>
+/// <param name="input">ソース文字列。</param>
+/// <param name="start">開始インデックス（1-based）。</param>
+/// <param name="end">終了インデックス（1-based、終端含む）。</param>
+/// <returns>該当する部分文字列。入力無効かstartが範囲外なら空文字を返す。</returns>
+private string GetCrystalSubstring(string input, int start, int end)
+{
+	// 0ベースに変換する
+	start--;
+	end--;
+	// 入力チェック: inputがnull/empty、またはstartが文字列長を超える場合は空文字を返す
+	if (string.IsNullOrEmpty(input) || start >= input.Length)
+	{
+		return "";
+	}
+
+	// 計算ブロック: 取得する長さを決定する。取得長を残り文字数を超えないようにクランプする。
+	int length = Math.Min(end - start + 1, input.Length - start);
+    
+	// 結果取得ブロック: 計算済みの長さで start から substring を返す
+	return input.Substring(start, length);
+}
+
+// rpt 内のすべてのセクションに対してテキスト系コントロールの背景色を透過に設定する
+private void SetBgColorTransparentAllSections()
+{
+	// 全セクションを順に処理
+	foreach (GrapeCity.ActiveReports.SectionReportModel.Section sec in rpt.Sections)
+	{
+		// セクション内のコントロールを順に処理
+		foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+		{
+			// TextBox の場合は背景を透過にする
+			if (ctrl is TextBox)
+			{
+				TextBox tbx = (TextBox) ctrl;
+				tbx.BackColor = System.Drawing.Color.Transparent;
+			}
+
+			// Label の場合は背景を透過にする
+			if (ctrl is Label)
+			{
+				GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+				lbl.BackColor = System.Drawing.Color.Transparent;
+			}
+		}
+	}
+}
+
+public void Section17_Format()
+{
+	var key = Convert.ToString(rpt.Fields["体系区分"].Value) + "|" + Convert.ToString(rpt.Fields["科目コード_款"].Value);
+	string yosanCode = Convert.ToString(rpt.Fields["予算コード"].Value);
+	if (GetCrystalSubstring(yosanCode, 3, 10) == "00000000")
+	{
+		/* Crystal Field: 執行累計 */
+		rpt.CalculatedFields["執行累計_temp"].Value = this.totalGroup款_執行累計1[key];
+		/* Crystal Field: 補正予算額 */
+		rpt.CalculatedFields["補正予算額_temp"].Value = this.totalGroup款_補正予算額1[key];
+		/* Crystal Field: 当初予算額 */
+		rpt.CalculatedFields["当初予算額_temp"].Value = this.totalGroup款_当初予算額1[key];
+		/* Crystal Field: 当月執行額 */
+		rpt.CalculatedFields["当月執行額_temp"].Value = this.totalGroup款_当月執行額1[key];
+		/* Crystal Field: 予備費支出額 */
+		rpt.CalculatedFields["予備費支出額_temp"].Value = this.totalGroup款_予備費支出額1[key];
+		/* Crystal Field: 流用増減額 */
+		rpt.CalculatedFields["流用増減額_temp"].Value = this.totalGroup款_流用増減額1[key];	
+	}
+	else
+	{
+		/*ELSE {@執行累計1}
+		ELSE {@当月執行額1}
+		ELSE {@当初予算額1}
+		ELSE {@補正予算額1}
+		ELSE {@予備費支出額1}
+		ELSE {@流用増減額1}
+		*/
+		/* Crystal Field: 執行累計 */
+		rpt.CalculatedFields["執行累計_temp"].Value = rpt.Fields["執行累計1_temp"].Value;
+		/* Crystal Field: 当月執行額 */
+		rpt.CalculatedFields["当月執行額_temp"].Value = rpt.Fields["当月執行額1_temp"].Value;
+		/* Crystal Field: 当初予算額 */
+		rpt.CalculatedFields["当初予算額_temp"].Value = rpt.Fields["当初予算額1_temp"].Value;
+		/* Crystal Field: 補正予算額 */
+		rpt.CalculatedFields["補正予算額_temp"].Value = rpt.Fields["補正予算額1_temp"].Value;
+		/* Crystal Field: 予備費支出額 */
+		rpt.CalculatedFields["予備費支出額_temp"].Value = rpt.Fields["予備費支出額1_temp"].Value;
+		/* Crystal Field: 流用増減額 */
+		rpt.CalculatedFields["流用増減額_temp"].Value = rpt.Fields["流用増減額1_temp"].Value;
+	}
+}
+
+public void Section19_Format()
+{
+	string yosanCode = Convert.ToString(rpt.Fields["予算コード"].Value);
+	var key = Convert.ToString(rpt.Fields["体系区分"].Value) + "|" + Convert.ToString(rpt.Fields["科目コード_款"].Value)
+		+ "|" + Convert.ToString(rpt.Fields["科目コード_項"].Value);
+	if (GetCrystalSubstring(yosanCode, 5, 10) == "000000")
+	{
+		/* Crystal Field: 執行累計 */
+		rpt.CalculatedFields["執行累計_temp"].Value = this.totalGroup項_執行累計1[key];
+		/* Crystal Field: 補正予算額 */
+		rpt.CalculatedFields["補正予算額_temp"].Value = this.totalGroup項_補正予算額1[key];
+		/* Crystal Field: 当初予算額 */
+		rpt.CalculatedFields["当初予算額_temp"].Value = this.totalGroup項_当初予算額1[key];
+		/* Crystal Field: 当月執行額 */
+		rpt.CalculatedFields["当月執行額_temp"].Value = this.totalGroup項_当月執行額1[key];
+		/* Crystal Field: 予備費支出額 */
+		rpt.CalculatedFields["予備費支出額_temp"].Value = this.totalGroup項_予備費支出額1[key];
+		/* Crystal Field: 流用増減額 */
+		rpt.CalculatedFields["流用増減額_temp"].Value = this.totalGroup項_流用増減額1[key];
+	}
+	else
+	{
+		/*ELSE {@執行累計1}
+		ELSE {@当月執行額1}
+		ELSE {@当初予算額1}
+		ELSE {@補正予算額1}
+		ELSE {@予備費支出額1}
+		ELSE {@流用増減額1}
+		*/
+		/* Crystal Field: 執行累計 */
+		rpt.CalculatedFields["執行累計_temp"].Value = rpt.Fields["執行累計1_temp"].Value;
+		/* Crystal Field: 当月執行額 */
+		rpt.CalculatedFields["当月執行額_temp"].Value = rpt.Fields["当月執行額1_temp"].Value;
+		/* Crystal Field: 当初予算額 */
+		rpt.CalculatedFields["当初予算額_temp"].Value = rpt.Fields["当初予算額1_temp"].Value;
+		/* Crystal Field: 補正予算額 */
+		rpt.CalculatedFields["補正予算額_temp"].Value = rpt.Fields["補正予算額1_temp"].Value;
+		/* Crystal Field: 予備費支出額 */
+		rpt.CalculatedFields["予備費支出額_temp"].Value = rpt.Fields["予備費支出額1_temp"].Value;
+		/* Crystal Field: 流用増減額 */
+		rpt.CalculatedFields["流用増減額_temp"].Value = rpt.Fields["流用増減額1_temp"].Value;
+	}
+}
+
+public void Section21_Format()
+{
+	string yosanCode = Convert.ToString(rpt.Fields["予算コード"].Value);
+	var key = Convert.ToString(rpt.Fields["体系区分"].Value) + "|" + Convert.ToString(rpt.Fields["科目コード_款"].Value)
+		+ "|" + Convert.ToString(rpt.Fields["科目コード_項"].Value) + "|" + Convert.ToString(rpt.Fields["科目コード_目"].Value);
+	if (GetCrystalSubstring(yosanCode, 7, 10) == "0000")
+	{
+		/* Crystal Field: 執行累計 */
+		rpt.CalculatedFields["執行累計_temp"].Value = this.totalGroup目_執行累計1[key];
+		/* Crystal Field: 補正予算額 */
+		rpt.CalculatedFields["補正予算額_temp"].Value = this.totalGroup目_補正予算額1[key];
+		/* Crystal Field: 当初予算額 */
+		rpt.CalculatedFields["当初予算額_temp"].Value = this.totalGroup目_当初予算額1[key];
+		/* Crystal Field: 当月執行額 */
+		rpt.CalculatedFields["当月執行額_temp"].Value = this.totalGroup目_当月執行額1[key];
+		/* Crystal Field: 予備費支出額 */
+		rpt.CalculatedFields["予備費支出額_temp"].Value = this.totalGroup目_予備費支出額1[key];
+		/* Crystal Field: 流用増減額 */
+		rpt.CalculatedFields["流用増減額_temp"].Value = this.totalGroup目_流用増減額1[key];
+	}
+	else
+	{
+		/*ELSE {@執行累計1}
+		ELSE {@当月執行額1}
+		ELSE {@当初予算額1}
+		ELSE {@補正予算額1}
+		ELSE {@予備費支出額1}
+		ELSE {@流用増減額1}
+		*/
+		/* Crystal Field: 執行累計 */
+		rpt.CalculatedFields["執行累計_temp"].Value = rpt.Fields["執行累計1_temp"].Value;
+		/* Crystal Field: 当月執行額 */
+		rpt.CalculatedFields["当月執行額_temp"].Value = rpt.Fields["当月執行額1_temp"].Value;
+		/* Crystal Field: 当初予算額 */
+		rpt.CalculatedFields["当初予算額_temp"].Value = rpt.Fields["当初予算額1_temp"].Value;
+		/* Crystal Field: 補正予算額 */
+		rpt.CalculatedFields["補正予算額_temp"].Value = rpt.Fields["補正予算額1_temp"].Value;
+		/* Crystal Field: 予備費支出額 */
+		rpt.CalculatedFields["予備費支出額_temp"].Value = rpt.Fields["予備費支出額1_temp"].Value;
+		/* Crystal Field: 流用増減額 */
+		rpt.CalculatedFields["流用増減額_temp"].Value = rpt.Fields["流用増減額1_temp"].Value;
+	}
+}
+
+
+public void Section23_Format()
+{
+	string yosanCode = Convert.ToString(rpt.Fields["予算コード"].Value);
+	var key = Convert.ToString(rpt.Fields["体系区分"].Value) + "|" + Convert.ToString(rpt.Fields["科目コード_款"].Value)
+		+ "|" + Convert.ToString(rpt.Fields["科目コード_項"].Value) + "|" + Convert.ToString(rpt.Fields["科目コード_目"].Value)
+		+ "|" + Convert.ToString(rpt.Fields["科目コード_節"].Value);
+	if(GetCrystalSubstring(yosanCode, 9, 10) == "00")
+	{
+		/*Crystal Field: 執行累計*/
+		rpt.CalculatedFields["執行累計_temp"].Value = this.totalGroup節_執行累計1[key];
+		/*Crystal Field: 補正予算額*/
+		rpt.CalculatedFields["補正予算額_temp"].Value = this.totalGroup節_補正予算額1[key];
+		/*Crystal Field: 当初予算額*/
+		rpt.CalculatedFields["当初予算額_temp"].Value = this.totalGroup節_当初予算額1[key];
+		/*Crystal Field: 当月執行額*/
+		rpt.CalculatedFields["当月執行額_temp"].Value = this.totalGroup節_当月執行額1[key];
+		/*Crystal Field: 予備費支出額*/
+		rpt.CalculatedFields["予備費支出額_temp"].Value = this.totalGroup節_予備費支出額1[key];
+		/*Crystal Field: 流用増減額*/
+		rpt.CalculatedFields["流用増減額_temp"].Value = this.totalGroup節_流用増減額1[key];
+	}
+	else
+	{
+		/*ELSE {@執行累計1}
+		ELSE {@当月執行額1}
+		ELSE {@当初予算額1}
+		ELSE {@補正予算額1}
+		ELSE {@予備費支出額1}
+		ELSE {@流用増減額1}
+		*/
+		/* Crystal Field: 執行累計 */
+		rpt.CalculatedFields["執行累計_temp"].Value = rpt.Fields["執行累計1_temp"].Value;
+		/* Crystal Field: 当月執行額 */
+		rpt.CalculatedFields["当月執行額_temp"].Value = rpt.Fields["当月執行額1_temp"].Value;
+		/* Crystal Field: 当初予算額 */
+		rpt.CalculatedFields["当初予算額_temp"].Value = rpt.Fields["当初予算額1_temp"].Value;
+		/* Crystal Field: 補正予算額 */
+		rpt.CalculatedFields["補正予算額_temp"].Value = rpt.Fields["補正予算額1_temp"].Value;
+		/* Crystal Field: 予備費支出額 */
+		rpt.CalculatedFields["予備費支出額_temp"].Value = rpt.Fields["予備費支出額1_temp"].Value;
+		/* Crystal Field: 流用増減額 */
+		rpt.CalculatedFields["流用増減額_temp"].Value = rpt.Fields["流用増減額1_temp"].Value;
+	}
+}
+
+public bool ActiveReport_FetchData(bool eof)
+{
+	try
+	{
+		if (eof) return eof;
+		//{帳票データ.予算コード}[ 1 TO 10 ]
+		rpt.CalculatedFields["科目コード_細"].Value = GetCrystalSubstring(Convert.ToString(rpt.Fields["予算コード"].Value), 1, 10);
+
+		return eof;
+	}
+	catch{
+		return true;
+	}
+}
+
+]]></Script>
+  <PageSettings LeftMargin="567" RightMargin="57" TopMargin="284" BottomMargin="284" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

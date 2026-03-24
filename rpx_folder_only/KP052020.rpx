@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.2" PrintWidth="11163" DocumentName="KP052020" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128; vertical-align: top" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="Section1" Visible="0" Height="285.1654" BackColor="16777215" />
+    <Section Type="PageHeader" Name="Section2" Height="6915" BackColor="16777215">
+      <Control Type="AR.Shape" Name="Box1" Left="975" Top="3750" Width="9345" Height="2280" BackStyle="1" LineWeight="2" RoundingRadius="10" />
+      <Control Type="AR.Label" Name="Text1" Left="585" Top="220" Width="345" Height="211" Caption="〒" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field8" DataField="振込金額" Left="3919.748" Top="5043.023" Width="2817" Height="359.9999" Text="'= [@グループ合計]" OutputFormat="¥#,##0" CurrencyCulture="ja-JP" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" SummaryType="3" SummaryRunning="1" SummaryGroup="Section3" />
+      <Control Type="AR.Label" Name="Text2" Left="1590" Top="6695" Width="4867" Height="211" Caption="摘　　　　　　要" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text3" Left="8340" Top="6695" Width="1116" Height="211" Caption="金　　額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text4" Left="3165" Top="2115" Width="4710" Height="375" Caption="口　座　振　替　通　知　書" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 16pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text5" Left="1219" Top="3900" Width="1826" Height="306.0472" Caption="振替先金融機関" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text6" Left="1219" Top="4500" Width="1826" Height="306.0472" Caption="口　座　番　号" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text7" Left="1219" Top="5070" Width="1826" Height="306.0472" Caption="金　　　　　額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text8" Left="1219" Top="5610" Width="1826" Height="306.0472" Caption="振　　込　　日" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text9" Left="1219" Top="6285" Width="1826" Height="239.7869" Caption="〔内　　訳〕" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text10" Left="1215" Top="3030" Width="8895" Height="240" Caption="本書のとおり御指定の金融機関の預金口座に振替の手続きをしましたので通知します。" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field9" DataField="債権者名称_Cal" Left="855" Top="1405" Width="4845" Height="256.1025" Text="'= [@債権者名称]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 11pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field18" DataField="郵便番号" Left="1080" Top="235" Width="1380" Height="211" Text="郵便番号" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; font-size: 11pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field19" DataField="住所1" Left="855" Top="660" Width="4845" Height="286.2047" Text="住所1" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; font-size: 11pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field20" DataField="住所2" Left="855" Top="1040" Width="4845" Height="256" Text="住所2" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; font-size: 11pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field21" DataField="支店名称" Left="4085" Top="3920" Width="5655" Height="306.0472" Text="支店名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field22" DataField="預貯金種目名称" Left="4080" Top="4490" Width="1185" Height="306.0472" Text="預貯金種目名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field23" DataField="口座番号" Left="5325" Top="4490" Width="1425" Height="306.0472" Text="口座番号" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; font-size: 12pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field24" DataField="振込日名称" Left="3920" Top="5620.02" Width="2700" Height="286.0078" Text="振込日名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; font-size: 12pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line1" X1="3510" Y1="3750" X2="3510" Y2="6020" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line2" X1="990" Y1="4275" X2="10320" Y2="4275" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line3" X1="990" Y1="4875" X2="10335" Y2="4875" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line4" X1="990" Y1="5430" X2="10320" Y2="5430" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line5" X1="7215" Y1="6600" X2="7215" Y2="6960" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line6" X1="975" Y1="6960" X2="10320" Y2="6960" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line8" X1="975.1181" Y1="6600.189" X2="10320.12" Y2="6600.189" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line9" X1="975.1182" Y1="6600.189" X2="975.1182" Y2="6960.189" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line10" X1="10319.81" Y1="6600.189" X2="10319.81" Y2="6960.189" LineWeight="2" />
+    </Section>
+    <Section Type="GroupHeader" Name="Section3" Visible="0" Height="0" DataField="口座グループ_Cal" BackColor="16777215" KeepTogether="1" />
+    <Section Type="Detail" Name="Section4" Height="475.0859" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="Field25" DataField="内容1" Left="1245" Top="115" Width="5775" Height="211" Text="内容1" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field15" DataField="口座グループ_Cal" Visible="0" Left="2215" Top="120" Width="3245" Height="211" Text="'= [@口座グループ]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐゴシック; font-size: 10.5pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field26" DataField="振込金額" Left="7495" Top="115" Width="1980" Height="202" Text="振込金額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ Ｐ明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line5Section4" X1="7215" Y1="0" X2="7215" Y2="5669.292" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line7" X1="975" Y1="435" X2="10320" Y2="435" LineStyle="3" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line11" X1="975.1182" Y1="0" X2="975.1182" Y2="5669.292" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line12" X1="10319.81" Y1="0" X2="10319.81" Y2="5669.292" LineWeight="2" />
+      <Control Type="AR.Line" Name="Line16" X1="989.8583" Y1="5669.292" X2="10334.86" Y2="5669.292" LineWeight="2" />
+    </Section>
+    <Section Type="GroupFooter" Name="Section5" Height="2845" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Label" Name="Text11" Visible="0" Left="6514" Top="555" Width="3806" Height="300" Caption="両 毛 市 水 道 事 業 所" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 12pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text12" Visible="0" Left="6525" Top="930" Width="2175" Height="211" Caption="〒 ３７６－８５０２" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text13" Visible="0" Left="6930" Top="1245" Width="3390" Height="211" Caption="群馬県桐生市広沢町３－４０２５" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text14" Visible="0" Left="6930" Top="1575" Width="3390" Height="211" Caption="電話　（0277）５３－３１０６" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line15" X1="989.8583" Y1="0" X2="10334.86" Y2="0" LineWeight="2" />
+    </Section>
+    <Section Type="PageFooter" Name="Section7" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="Section6" Visible="0" Height="0" BackColor="16777215" KeepTogether="1" />
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="口座グループ_Cal" Formula="=債権者コード +銀行番号 + 支店番号 + 預貯金種目 + 口座番号" FieldType="None" />
+    <Field Name="グループ合計" Formula="=Sum ({明細データ.振込金額}, {@口座グループ})" FieldType="None" />
+    <Field Name="債権者名称_Cal" Formula="=債権者漢字名称　+ &quot;　様&quot;" FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[public void Section1_Format()
+{
+	#region set BackColor transparent
+	
+	SetBgColerTransparent(Section1);
+	SetBgColerTransparent(Section2);
+	SetBgColerTransparent(Section3);
+	SetBgColerTransparent(Section4);
+	SetBgColerTransparent(Section5);
+	SetBgColerTransparent(Section6);
+	SetBgColerTransparent(Section7);
+	
+	#endregion
+
+}
+
+public void SetBgColerTransparent(GrapeCity.ActiveReports.SectionReportModel.Section sec)
+{
+	foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+	{
+		if (ctrl is TextBox)
+		{
+			TextBox tbx = (TextBox) ctrl;
+			tbx.BackColor = System.Drawing.Color.Transparent; 
+		}
+		if (ctrl is Label )
+		{
+			GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+			lbl.BackColor = System.Drawing.Color.Transparent;
+		}
+	}
+}
+
+public void Section2_Format()
+{
+	#region SET Alignment
+	
+	this.Field8.Alignment = TextAlignment.Right;
+	
+	#endregion
+
+}
+
+
+public void Section4_Format()
+{
+	#region SET Alignment
+	
+	this.Field26.Alignment = TextAlignment.Right;
+	
+	#endregion
+
+}
+
+
+]]></Script>
+  <PageSettings LeftMargin="454" RightMargin="289" TopMargin="851" BottomMargin="278" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

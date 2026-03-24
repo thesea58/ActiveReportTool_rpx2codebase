@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="16118" DocumentName="KP073320" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; text-align: left; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128; vertical-align: top" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+    <Style Name="Heading2" Value="font-size: 14pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-style: normal; font-weight: bold; font-family: &quot;ＭＳ 明朝&quot;; ddo-char-set: 128" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="Section1" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="PageHeader" Name="Section2" Height="1966" BackColor="16777215">
+      <Control Type="AR.Label" Name="Text6" Left="200" Top="1515" Width="6740" Height="225" Caption="件 名" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field1" Left="15360" Top="885" Width="255" Height="202" Text="PageNumber" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" SummaryType="4" SummaryRunning="2" />
+      <Control Type="AR.Label" Name="Text7" Left="15669" Top="885" Width="231" Height="225" Caption="頁" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text9" Visible="0" Left="8415" Top="480" Width="1065" Height="225" Caption="【契約日】" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text10" Left="12120" Top="1515" Width="3945" Height="211" Caption="指　名　業　者　名" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text11" Left="8790.236" Top="1485.921" Width="1670" Height="211" Caption="契約日" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text12" Left="8790.236" Top="1275.024" Width="1670" Height="211" Caption="請負（契約）金額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text13" Left="6967" Top="1515" Width="1783" Height="211" Caption="設計（見積）金額" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text15" Left="11175" Top="885" Width="1185" Height="225" Caption="【業者名】" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field5" DataField="工事種別表示" Visible="0" Left="7980" Top="885" Width="1470" Height="225" Text="'= [@工事種別表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field6" DataField="工事種別名称表示" Visible="0" Left="9510" Top="885" Width="1500" Height="225" Text="'= [@工事種別名称表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field7" DataField="日付1" Left="10545" Top="1275" Width="1500" Height="211" Text="'= [@日付1]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field8" DataField="日付2" Left="10545" Top="1515" Width="1500" Height="211" Text="'= [@日付2]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field52" DataField="落札業者名称" Left="12450" Top="885" Width="2805" Height="211" Text="落札業者名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text14" Left="8790.236" Top="1729.134" Width="1670" Height="211" Caption="契約方法" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field2" DataField="和暦1" Left="975" Top="335" Width="1950" Height="390" Text="和暦1" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 14pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="帳票1" DataField="帳票サブタイトル" Left="13470" Top="585" Width="2430" Height="211" Text="帳票サブタイトル" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="帳票名1" DataField="帳票名" Left="2745" Top="335" Width="5445" Height="510" Text="帳票名" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 18pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line1" X1="200" Y1="1940" X2="16095" Y2="1940" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line2" X1="195" Y1="1185" X2="195" Y2="1966" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line4" X1="12075" Y1="1185" X2="12075" Y2="1966" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line5" X1="6945" Y1="1185" X2="6945" Y2="1966" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line6" X1="8759.056" Y1="1184.882" X2="8759.056" Y2="1966" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line7" X1="10515" Y1="1185" X2="10515" Y2="1966" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line8" X1="195" Y1="1185" X2="16095" Y2="1185" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line3" X1="16095.12" Y1="1184.882" X2="16095.12" Y2="1965.882" LineWeight="0" />
+    </Section>
+    <Section Type="GroupHeader" Name="Section3" Height="0.5669292" DataField="落札業者コード" BackColor="16777215" NewPage="1" KeepTogether="1" CanGrow="0" />
+    <Section Type="GroupHeader" Name="Section4" Height="0.5669292" DataField="工事種別" BackColor="16777215" KeepTogether="1" CanGrow="0" />
+    <Section Type="Detail" Name="Section5" Height="1364.599" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Label" Name="Text16" Left="360" Top="50" Width="150" Height="211" Caption="(" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Label" Name="Text17" Left="1605" Top="50" Width="165" Height="211" Caption=")" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field18" DataField="業者名称1_Cal" Left="12150" Top="30" Width="1886" Height="182" Text="'= [@業者名称1]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field19" DataField="業者名称2_Cal" Left="12150" Top="195" Width="1886" Height="182" Text="'= [@業者名称2]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field20" DataField="業者名称3_Cal" Left="12150" Top="385" Width="1886" Height="182" Text="'= [@業者名称3]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field21" DataField="業者名称4_Cal" Left="12150" Top="580" Width="1886" Height="182" Text="'= [@業者名称4]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field22" DataField="業者名称5_Cal" Left="12150" Top="745" Width="1886" Height="182" Text="'= [@業者名称5]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field23" DataField="業者名称6_Cal" Left="12150" Top="925" Width="1886" Height="182" Text="'= [@業者名称6]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field24" DataField="業者名称7_Cal" Left="12150" Top="1120" Width="1886" Height="182" Text="'= [@業者名称7]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field25" DataField="業者名称8_Cal" Left="14130" Top="30" Width="1886" Height="182" Text="'= [@業者名称8]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field26" DataField="業者名称9_Cal" Left="14130" Top="195" Width="1886" Height="182" Text="'= [@業者名称9]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field27" DataField="業者名称10_Cal" Left="14130" Top="385" Width="1886" Height="182" Text="'= [@業者名称10]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field28" DataField="業者名称11_Cal" Left="14130" Top="580" Width="1886" Height="182" Text="'= [@業者名称11]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field29" DataField="業者名称12_Cal" Left="14130" Top="745" Width="1886" Height="182" Text="'= [@業者名称12]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field30" DataField="業者名称13_Cal" Left="14130" Top="925" Width="1886" Height="182" Text="'= [@業者名称13]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field31" DataField="業者名称14_Cal" Left="14130" Top="1120" Width="1886" Height="182" Text="'= [@業者名称14]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field32" Left="261.9213" Top="688.252" Width="6503" Height="210" Text="'= [@材料名称表示1]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field33" Left="261.9213" Top="896.8818" Width="6503" Height="183.1181" Text="'= [@材料名称表示2]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field34" Left="262" Top="1080" Width="6503" Height="210" Text="'= [@材料名称表示3]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field53" DataField="工期着工名称" Left="10650" Top="200" Width="1395" Height="211" Text="工期着工名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field54" DataField="工期完成名称" Left="10650" Top="725" Width="1395" Height="211" Text="工期完成名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field55" DataField="決裁額" Left="8880" Top="200" Width="1515" Height="184.9449" Text="決裁額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field56" DataField="締結日付" Left="8880" Top="560" Width="1590" Height="211" Text="締結日付" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field57" DataField="契約方法名称" Left="8880" Top="935.0001" Width="1590" Height="211" Text="契約方法名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field58" DataField="設計金額" Left="7110" Top="200" Width="1545" Height="184.9449" Text="設計金額" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field59" DataField="管理番号" Left="600" Top="50" Width="930" Height="182" Text="管理番号" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field60" DataField="名称" Left="255" Top="260" Width="6503" Height="182" Text="名称" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field61" DataField="場所" Left="255" Top="455" Width="6503" Height="182" Text="場所" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 8pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Line" Name="Line10" X1="200" Y1="1349.858" X2="16100" Y2="1349.858" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line9" X1="195.0236" Y1="0" X2="195.0236" Y2="1364.599" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line11" X1="6944.882" Y1="0" X2="6944.882" Y2="1364.599" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line12" X1="8759.056" Y1="0" X2="8759.056" Y2="1364.599" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line13" X1="10514.83" Y1="0" X2="10514.83" Y2="1364.599" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line14" X1="12075.02" Y1="0" X2="12075.02" Y2="1364.599" LineWeight="0" />
+      <Control Type="AR.Line" Name="Line15" X1="16095.12" Y1="0" X2="16095.12" Y2="1364.599" LineWeight="0" />
+    </Section>
+    <Section Type="GroupFooter" Name="Section6" Visible="0" Height="805" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="Field43" DataField="テスト3" Left="7000" Top="465" Width="1700" Height="182" Text="'= [@テスト3]" OutputFormat="#,##" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field48" DataField="テスト9" Left="7000" Top="450" Width="1700" Height="182" Text="'= [@テスト9]" OutputFormat="#,##" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field35" DataField="テスト8" Left="4860" Top="435" Width="1826" Height="211" Text="'= [@テスト8]" OutputFormat="" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field44" DataField="テスト4" Left="8805" Top="465" Width="1655" Height="182" Text="'= [@テスト4]" OutputFormat="" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field49" DataField="テスト10" Left="8805" Top="450" Width="1655" Height="182" Text="'= [@テスト10]" OutputFormat="#,##" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; vertical-align: top; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field42" DataField="テスト2" Visible="0" Left="2443" Top="540" Width="1700" Height="182" Text="'= [@テスト2]" OutputFormat="#,##" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field45" DataField="テスト5" Left="4860" Top="465" Width="1826" Height="211" Text="'= [@テスト5]" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field37" DataField="工事種別合計表示" Left="4860" Top="105" Width="1826" Height="211" Text="'= [@工事種別合計表示]" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field38" DataField="工事種別合計設計金額_Cal" Left="7000" Top="75" Width="1700" Height="182" Text="'= [@工事種別合計設計金額]" OutputFormat="#,##" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" SummaryType="3" SummaryGroup="Section4" />
+      <Control Type="AR.Field" Name="Field40" DataField="工事種別合計請負金額_Cal" Left="8805" Top="75" Width="1655" Height="182" Text="'= [@工事種別合計請負金額]" OutputFormat="#,##" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: right; ddo-char-set: 1" SummaryType="3" SummaryGroup="Section4" />
+      <Control Type="AR.Field" Name="Field46" DataField="テスト6" Visible="0" Left="660" Top="180" Width="984" Height="182" Text="'= [@テスト6]" OutputFormat="#,##0" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="Field47" DataField="テスト7" Visible="0" Left="660" Top="480" Width="984" Height="182" Text="'= [@テスト7]" OutputFormat="#,##0" CanGrow="0" Style="color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: left; ddo-char-set: 1" />
+    </Section>
+    <Section Type="GroupFooter" Name="Section7" Height="415" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Label" Name="Text19" Left="4860" Top="105" Width="1826" Height="211" Caption="業 者 別 合 計" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; font-size: 9pt; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="決裁額合計1" DataField="決裁額" Left="8220" Top="105" Width="2175.213" Height="241.3937" Text="Sum ({伝票データ.決裁額}, {伝票データ.落札業者コード})" OutputFormat="#,##" CanGrow="0" Style="background-color: White; color: Black; font-family: ＭＳ 明朝; text-align: right; vertical-align: middle; ddo-char-set: 1" SummaryType="3" SummaryGroup="Section3" />
+    </Section>
+    <Section Type="PageFooter" Name="Section9" Visible="0" Height="600" BackColor="16777215" />
+    <Section Type="ReportFooter" Name="Section8" Height="345" BackColor="16777215" KeepTogether="1" />
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="請負金額" Formula="=落札額 + 落札税額" FieldType="None" />
+    <Field Name="落札金額" Formula="=落札額 - 落札税額" FieldType="None" />
+    <Field Name="予定価格表示" Formula="=if {伝票データ.予定価格} = 0 then&#xD;&#xA;&#xD;&#xA;&quot;- - 設定なし - -&quot;&#xD;&#xA;&#xD;&#xA;else&#xD;&#xA;&#xD;&#xA;ToText ({伝票データ.予定価格},0)&#xD;&#xA;&#xD;&#xA;" FieldType="None" />
+    <Field Name="予算コード節" Formula="={伝票データ.予算コード}[1 to 8]" FieldType="None" />
+    <Field Name="前払日表示" Formula="=IF {伝票データ.前払額} &lt;&gt; 0 THEN&#xD;&#xA;   {伝票データ.前払発生日}" FieldType="None" />
+    <Field Name="前払額表示" Formula="=IF {伝票データ.前払額} &lt;&gt; 0 THEN&#xD;&#xA;  {伝票データ.前払額}" FieldType="None" />
+    <Field Name="精算日表示" Formula="=IF {伝票データ.精算額} &lt;&gt; 0 THEN&#xD;&#xA;  {伝票データ.精算日}" FieldType="None" />
+    <Field Name="精算額表示" Formula="=IF {伝票データ.精算額} &lt;&gt; 0 THEN&#xD;&#xA;  {伝票データ.精算額}" FieldType="None" />
+    <Field Name="前払日" Formula="=if {伝票データ.前払額} &lt;&gt; 0 then&#xD;&#xA; &quot;前払発生日&quot;" FieldType="None" />
+    <Field Name="精算日" Formula="=if {伝票データ.精算額} &lt;&gt; 0 then&#xD;&#xA; &quot;精算日&quot;" FieldType="None" />
+    <Field Name="請負業者表示1" Formula="={伝票データ.落札業者名称}[1 TO 8]" FieldType="None" />
+    <Field Name="請負業者表示2" Formula="={伝票データ.落札業者名称}[9 TO 16]" FieldType="None" />
+    <Field Name="請負業者表示3" Formula="={伝票データ.落札業者名称}[17 TO 24]" FieldType="None" />
+    <Field Name="名称表示1" Formula="={伝票データ.名称}[ 1to 14]" FieldType="None" />
+    <Field Name="名称表示2" Formula="={伝票データ.名称}[ 15 to 28]" FieldType="None" />
+    <Field Name="場所表示1" Formula="={伝票データ.場所}[ 1 to 14]" FieldType="None" />
+    <Field Name="場所表示2" Formula="={伝票データ.場所}[ 15 to 28]" FieldType="None" />
+    <Field Name="工事種別表示" Formula="= 管理種別 != &quot;4&quot; ?  &quot;【工事種別】&quot; : &quot;&quot;" FieldType="None" />
+    <Field Name="工事種別名称表示" Formula="= 管理種別 != &quot;4&quot; ? 工事種別名称 : &quot;&quot;" FieldType="None" />
+    <Field Name="工事種別合計表示" Formula="= (管理種別 == &quot;1&quot; || 管理種別 == &quot;4&quot;) ? &quot;工 事 種 別 合 計&quot; : &quot;&quot;" FieldType="None" />
+    <Field Name="工事種別合計設計金額_Cal" Formula="=管理種別 == &quot;1&quot; || 管理種別 == &quot;4&quot; ? 設計金額 : 0" FieldType="None" />
+    <Field Name="工事種別合計請負金額_Cal" Formula="=管理種別 == &quot;1&quot; || 管理種別 == &quot;4&quot; ? 決裁額 : 0" FieldType="None" />
+    <Field Name="テスト1" FieldType="None" />
+    <Field Name="テスト2" FieldType="None" />
+    <Field Name="テスト3" FieldType="None" />
+    <Field Name="テスト4" FieldType="None" />
+    <Field Name="テスト5" FieldType="None" />
+    <Field Name="テスト6" FieldType="None" />
+    <Field Name="テスト7" FieldType="None" />
+    <Field Name="テスト8" FieldType="None" />
+    <Field Name="テスト9" FieldType="None" />
+    <Field Name="テスト10" FieldType="None" />
+    <Field Name="業者名称1_Cal" Formula="= 業者名称1.Length &gt;= 12 ? 業者名称1.Substring (0 , 12) : 業者名称1" FieldType="None" />
+    <Field Name="業者名称2_Cal" Formula="= 業者名称2.Length &gt;= 12 ? 業者名称2.Substring (0 , 12) : 業者名称2 " FieldType="None" />
+    <Field Name="業者名称3_Cal" Formula="= 業者名称3.Length &gt;= 12 ? 業者名称3.Substring (0 , 12) : 業者名称3 " FieldType="None" />
+    <Field Name="業者名称4_Cal" Formula="= 業者名称4.Length &gt;= 12 ? 業者名称4.Substring (0 , 12) : 業者名称4 " FieldType="None" />
+    <Field Name="業者名称5_Cal" Formula="= 業者名称5.Length &gt;= 12 ? 業者名称5.Substring (0 , 12) : 業者名称5 " FieldType="None" />
+    <Field Name="業者名称6_Cal" Formula="= 業者名称6.Length &gt;= 12 ? 業者名称6.Substring (0 , 12) : 業者名称6 " FieldType="None" />
+    <Field Name="業者名称7_Cal" Formula="= 業者名称7.Length &gt;= 12 ? 業者名称7.Substring (0 , 12) : 業者名称7 " FieldType="None" />
+    <Field Name="業者名称8_Cal" Formula="= 業者名称8.Length &gt;= 12 ? 業者名称8.Substring (0 , 12) : 業者名称8 " FieldType="None" />
+    <Field Name="業者名称9_Cal" Formula="= 業者名称9.Length &gt;= 12 ? 業者名称9.Substring (0 , 12) : 業者名称9 " FieldType="None" />
+    <Field Name="業者名称10_Cal" Formula="= 業者名称10.Length &gt;= 12 ? 業者名称10.Substring (0 , 12) : 業者名称10 " FieldType="None" />
+    <Field Name="業者名称11_Cal" Formula="= 業者名称11.Length &gt;= 12 ? 業者名称11.Substring (0 , 12) : 業者名称11" FieldType="None" />
+    <Field Name="業者名称12_Cal" Formula="= 業者名称12.Length &gt;= 12 ? 業者名称12.Substring (0 , 12) : 業者名称12" FieldType="None" />
+    <Field Name="業者名称13_Cal" Formula="= 業者名称13.Length &gt;= 12 ? 業者名称13.Substring (0 , 12) : 業者名称13" FieldType="None" />
+    <Field Name="業者名称14_Cal" Formula="= 業者名称14.Length &gt;= 12 ? 業者名称14.Substring (0 , 12) : 業者名称14" FieldType="None" />
+    <Field Name="数量表示1" Formula="=IF {伝票データ.数量1} = 0 THEN &quot; &quot;&#xD;&#xA; ELSE ToText ({伝票データ.数量1})" FieldType="None" />
+    <Field Name="数量表示2" Formula="=IF {伝票データ.数量2} = 0 THEN &quot; &quot;&#xD;&#xA; ELSE ToText ({伝票データ.数量2})" FieldType="None" />
+    <Field Name="数量表示3" Formula="=IF {伝票データ.数量3} = 0 THEN &quot; &quot;&#xD;&#xA; ELSE ToText ({伝票データ.数量3})" FieldType="None" />
+    <Field Name="材料名称表示1" Formula="=IF {伝票データ.規格1} &lt;&gt; &quot;&quot; THEN&#xD;&#xA;&#xD;&#xA;	{伝票データ.材料名称1} + Space (2) +  {伝票データ.規格1} + Space (2)  + ToText ({伝票データ.数量1},0) + Space (2) + {伝票データ.単位1}&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.材料名称1} = &quot;&quot; THEN &quot;&quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.規格1} = &quot;&quot;  AND {伝票データ.数量1} &gt; 0 AND RIGHT(ToText ({伝票データ.数量1},3),3) = '000' THEN&#xD;&#xA;	&#xD;&#xA;              {伝票データ.材料名称1} + Space (2) + ToText ({伝票データ.数量1},0) + Space (2) + {伝票データ.単位1}&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.規格1} = &quot;&quot;  AND {伝票データ.数量1} &gt; 0 AND RIGHT(ToText ({伝票データ.数量1},3),3) &lt;&gt; '000' THEN&#xD;&#xA;	&#xD;&#xA;              {伝票データ.材料名称1} + Space (2) + ToText ({伝票データ.数量1},3) + Space (2) + {伝票データ.単位1}&#xD;&#xA;&#xD;&#xA;ELSE&#xD;&#xA;	{伝票データ.材料名称1}" FieldType="None" />
+    <Field Name="材料名称表示2" Formula="=IF {伝票データ.規格2} &lt;&gt; &quot;&quot; THEN&#xD;&#xA;&#xD;&#xA;	{伝票データ.材料名称2} + Space (2) +  {伝票データ.規格2} + Space (2)  + ToText ({伝票データ.数量2},0) + Space (2) + {伝票データ.単位2}&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.材料名称2} = &quot;&quot; THEN &quot;&quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.規格2} = &quot;&quot;  AND {伝票データ.数量2} &gt; 0 AND RIGHT(ToText ({伝票データ.数量2},3),3) = '000' THEN&#xD;&#xA;	&#xD;&#xA;              {伝票データ.材料名称2} + Space (2) + ToText ({伝票データ.数量2},0) + Space (2) + {伝票データ.単位2}&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.規格2} = &quot;&quot;  AND {伝票データ.数量2} &gt; 0 AND RIGHT(ToText ({伝票データ.数量2},3),3) &lt;&gt; '000' THEN&#xD;&#xA;	&#xD;&#xA;              {伝票データ.材料名称2} + Space (2) + ToText ({伝票データ.数量2},3) + Space (2) + {伝票データ.単位2}&#xD;&#xA;&#xD;&#xA;ELSE&#xD;&#xA;	{伝票データ.材料名称2}" FieldType="None" />
+    <Field Name="材料名称表示3" Formula="=IF {伝票データ.規格3} &lt;&gt; &quot;&quot; THEN&#xD;&#xA;&#xD;&#xA;	{伝票データ.材料名称3} + Space (2) +  {伝票データ.規格3} + Space (2)  + ToText ({伝票データ.数量3},0) + Space (2) + {伝票データ.単位3}&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.材料名称3} = &quot;&quot; THEN &quot;&quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.規格3} = &quot;&quot;  AND {伝票データ.数量3} &gt; 0 AND RIGHT(ToText ({伝票データ.数量3},3),3) = '000' THEN&#xD;&#xA;	&#xD;&#xA;              {伝票データ.材料名称3} + Space (2) + ToText ({伝票データ.数量3},0) + Space (2) + {伝票データ.単位3}&#xD;&#xA;&#xD;&#xA;ELSE IF {伝票データ.規格3} = &quot;&quot;  AND {伝票データ.数量3} &gt; 0 AND RIGHT(ToText ({伝票データ.数量3},3),3) &lt;&gt; '000' THEN&#xD;&#xA;	&#xD;&#xA;              {伝票データ.材料名称3} + Space (2) + ToText ({伝票データ.数量3},3) + Space (2) + {伝票データ.単位3}&#xD;&#xA;&#xD;&#xA;ELSE&#xD;&#xA;	{伝票データ.材料名称3}" FieldType="None" />
+    <Field Name="日付1" Formula="= 管理種別 == &quot;1&quot; || 管理種別 == &quot;2&quot; || 管理種別 == &quot;3&quot;  ? &quot;着工日&quot;:  &quot;納期&quot;" FieldType="None" />
+    <Field Name="日付2" Formula="= 管理種別 == &quot;1&quot; || 管理種別 == &quot;2&quot; || 管理種別 == &quot;3&quot;  ? &quot;竣工日&quot;:  &quot;&quot;" FieldType="None" />
+  </CalculatedFields>
+  <Script><![CDATA[// CRのRecordNumberに相当
+private int RecordNumber = 0;
+
+// groupの落札業者コードを一時保存する変数
+private string Current落札業者コード = "";
+
+// グループ合計を蓄積する一時変数
+private decimal テスト1SumGroup = 0; // Test1 のグループ合計
+private decimal テスト2SumGroup = 0; // Test2 のグループ合計
+
+/// <summary>
+/// レポート開始時（ReportStart）に一度だけ実行される初期化処理です。
+/// - 全セクションの背景色を透過に統一（PDF/印刷時の見た目を安定化）
+/// - DataSource の妥当性を確認
+/// - 並び順（ソート）を適用
+/// </summary>
+public void ActiveReport_ReportStart()
+{
+	SetBgColorTransparentAllSections();
+	
+	if(!CheckDataSource()) return;
+	
+	Apply_Sort();
+	
+}
+
+/// <summary>
+/// FetchData イベント。
+/// Crystal のグループ集計（落札業者コード単位の Sum）と Next() 判定を、
+/// ActiveReports 側で手動再現し、テスト用 CalculatedFields に値を設定します。
+///
+/// 対応する CR 数式（例）:
+/// - テスト1/2 : Sum(設計金額/決裁額, 落札業者コード)
+/// - テスト3/4 : if Next(落札業者コード)=現在 then "" else ToText(テスト1/2,0)
+/// - テスト5   : if Next=現在 and RecordNumber<=Count(SEQ) then "" else "業 者 別 合 計"
+/// - テスト6   : RecordNumber
+/// - テスト7   : Count(SEQ)
+/// - テスト8/9/10 : 最終行のみグループ合計を表示
+/// </summary>
+/// <param name="eof">データ終端フラグ（true の場合は終了）</param>
+/// <returns>次データの有無（通常は eof を返す）</returns>
+public bool ActiveReport_FetchData(bool eof)
+{
+	try
+	{
+		if (eof) return eof;
+		if(!CheckDataSource()) return true;
+		
+		System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+		
+		RecordNumber += 1;
+		int CountSEQ = dt.Rows.Count;
+		
+		// CR Formula: テスト6	= RecordNumber
+		rpt.CalculatedFields["テスト6"].Value = RecordNumber;
+
+		// CR Formula: テスト7	= Count ({伝票データ.SEQ})
+		rpt.CalculatedFields["テスト7"].Value = CountSEQ;
+		
+		/* 
+		CR Formula: テスト1 = Sum ({伝票データ.設計金額}, {伝票データ.落札業者コード})
+		CR Formula: テスト2 = Sum ({伝票データ.決裁額}, {伝票データ.落札業者コード})
+		*/
+		// グループ切替チェック
+		string 落札業者コード = Convert.ToString(dt.Rows[RecordNumber - 1]["落札業者コード"]);
+		if (落札業者コード != Current落札業者コード)
+		{
+			// グループ合計を0にリセット（落札業者コード用）
+			テスト1SumGroup = 0;
+			テスト2SumGroup = 0;
+			// 落札業者コードを更新
+			Current落札業者コード = 落札業者コード;
+		}
+		// 累積：金額を加算
+		テスト1SumGroup += TryDecimal(dt.Rows[RecordNumber - 1]["設計金額"]);
+		テスト2SumGroup += TryDecimal(dt.Rows[RecordNumber - 1]["決裁額"]);
+		// 計算済合計を CalculatedField に代入
+		rpt.CalculatedFields["テスト1"].Value = テスト1SumGroup;
+		rpt.CalculatedFields["テスト2"].Value = テスト2SumGroup;
+
+		/* CR Formula: テスト3
+		=if Next ({伝票データ.落札業者コード}) = {伝票データ.落札業者コード} 
+		 then ""
+		 else ToText ({@テスト1},0)
+		
+		CR Formula: テスト4 
+		=if Next ({伝票データ.落札業者コード}) = {伝票データ.落札業者コード} 
+		 then ""
+		 else ToText ({@テスト2},0)
+		
+		CR Formula: テスト5
+		=if Next ({伝票データ.落札業者コード}) = {伝票データ.落札業者コード} 
+		and {@テスト6} <=  {@テスト7}
+		 then ""
+		 else "業 者 別 合 計"
+		*/
+		// Next落札業者コード = Next ({伝票データ.落札業者コード})
+		string Next落札業者コード = "";
+		if (RecordNumber == dt.Rows.Count) // 最終行の場合（次の行がない）
+		{
+			// 現在行のコードを代入（次が存在しないため）
+			Next落札業者コード = Convert.ToString(dt.Rows[RecordNumber - 1]["落札業者コード"]);
+		}
+		else
+		{
+			// 次の行のコードを取得
+			Next落札業者コード = Convert.ToString(dt.Rows[RecordNumber]["落札業者コード"]);
+		}
+		if (Next落札業者コード == Convert.ToString(dt.Rows[RecordNumber - 1]["落札業者コード"]))
+		{
+			rpt.CalculatedFields["テスト3"].Value = "";
+			rpt.CalculatedFields["テスト4"].Value = "";
+			//テスト5
+			if (TryDecimal(rpt.CalculatedFields["テスト6"].Value) <= TryDecimal(rpt.CalculatedFields["テスト7"].Value))
+			{
+				rpt.CalculatedFields["テスト5"].Value = "";
+			}
+		}
+		else
+		{
+
+			rpt.CalculatedFields["テスト3"].Value = GetCrystalToText(Convert.ToString(rpt.CalculatedFields["テスト1"].Value), 0);
+			rpt.CalculatedFields["テスト4"].Value = GetCrystalToText(Convert.ToString(rpt.CalculatedFields["テスト2"].Value), 0);
+			rpt.CalculatedFields["テスト5"].Value = "業 者 別 合 計";
+
+		}
+
+		/* CR Formula: テスト8
+		=if RecordNumber = Count ({伝票データ.SEQ}) then
+		"業 者 別 合 計"
+
+		CR Formula: テスト9
+		=if RecordNumber = Count ({伝票データ.SEQ}) then
+		Sum ({伝票データ.設計金額}, {伝票データ.落札業者コード})
+
+		CR Formula: テスト10
+		=if RecordNumber = Count ({伝票データ.SEQ}) then
+		Sum ({伝票データ.決裁額}, {伝票データ.落札業者コード})
+		*/
+		if (RecordNumber == CountSEQ)
+		{
+			rpt.CalculatedFields["テスト8"].Value = "業 者 別 合 計";
+			rpt.CalculatedFields["テスト9"].Value = テスト1SumGroup;
+			rpt.CalculatedFields["テスト10"].Value = テスト2SumGroup;
+		}
+		else
+		{
+			rpt.CalculatedFields["テスト8"].Value = "";
+			rpt.CalculatedFields["テスト9"].Value = 0;
+			rpt.CalculatedFields["テスト10"].Value = 0;
+		}
+		return eof;
+	}
+	catch{
+		return true;
+		throw;	
+	}
+}
+
+/// <summary>
+/// DataSource（DataTable）を「落札業者コード」「工事種別」の順で並び替えて、
+/// 並び替え後の DataTable を rpt.DataSource に再設定します。
+/// </summary>
+private void Apply_Sort()
+{
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (!dt.Columns.Contains("落札業者コード")) return; 
+	if (!dt.Columns.Contains("工事種別")) return; 
+	var dv = new System.Data.DataView(dt);
+	
+	dv.Sort = "落札業者コード, 工事種別";
+
+	rpt.DataSource = dv.ToTable();
+	rpt.DataMember = null;
+}
+
+
+/*
+IF {伝票データ.規格1} <> '' THEN
+
+	{伝票データ.材料名称1} + Space (2) +  {伝票データ.規格1} + Space (2)  + ToText ({伝票データ.数量1},0) + Space (2) + {伝票データ.単位1}
+
+ELSE IF {伝票データ.材料名称1} = '' THEN ''
+
+
+ELSE IF {伝票データ.規格1} = ''  AND {伝票データ.数量1} > 0 AND RIGHT(ToText ({伝票データ.数量1},3),3) = '000' THEN
+	
+              {伝票データ.材料名称1} + Space (2) + ToText ({伝票データ.数量1},0) + Space (2) + {伝票データ.単位1}
+
+ELSE IF {伝票データ.規格1} = ''  AND {伝票データ.数量1} > 0 AND RIGHT(ToText ({伝票データ.数量1},3),3) <> '000' THEN
+	
+              {伝票データ.材料名称1} + Space (2) + ToText ({伝票データ.数量1},3) + Space (2) + {伝票データ.単位1}
+
+ELSE
+	{伝票データ.材料名称1}
+*/
+private string 材料名称(string 材料名称, string 規格, decimal 数量, string 単位)
+{
+	if(規格 != "") 
+	{
+		return 材料名称 + "".PadRight(2) + 規格 + 数量.ToString("F0") + "".PadRight(2) + 単位;
+	}
+	else if(材料名称 == "")
+	{
+		return "";
+	}
+	else if(規格 == "" && 数量 > 0 && GetCrystalRight(TryDecimal(数量).ToString("0.000"), 3) == "000")
+	{
+		return 材料名称 + "".PadRight(2) + 数量.ToString("F0") + "".PadRight(2) + 単位;
+	}
+	else if(規格 == "" && 数量 > 0 && GetCrystalRight(TryDecimal(数量).ToString("0.000"), 3) != "000")
+	{
+		return 材料名称 + "".PadRight(2) + 数量.ToString("F3") + "".PadRight(2) + 単位;
+	}
+	else 
+	{
+		return 材料名称;
+	}
+}
+
+
+/// <summary>
+/// Section5 の Format イベント。
+/// Crystal の「材料名称1～3」相当の表示文字列を組み立て、各フィールドに設定します。
+/// - 材料名称(名称, 規格, 数量, 単位) を用いて表示用テキストを生成
+/// - SafeFieldStr / SafeFieldDec により null/DBNull を吸収し、帳票処理を止めない
+/// </summary>
+public void Section5_Format()
+{	
+	//CR Formula: 材料名称1
+	this.Field32.Text = 材料名称(
+		SafeFieldStr("材料名称1"),
+		SafeFieldStr("規格1"),
+		SafeFieldDec("数量1"),
+		SafeFieldStr("単位1")
+		);
+
+	//CR Formula: 材料名称2
+	this.Field33.Text = 材料名称(
+		SafeFieldStr("材料名称2"),
+		SafeFieldStr("規格2"),
+		SafeFieldDec("数量2"),
+		SafeFieldStr("単位2")
+		);
+
+	//CR Formula: 材料名称3
+	this.Field34.Text = 材料名称(
+		SafeFieldStr("材料名称3"),
+		SafeFieldStr("規格3"),
+		SafeFieldDec("数量3"),
+		SafeFieldStr("単位3")
+		);
+}
+
+/// <summary>
+/// 指定したフィールドの値を安全に文字列化して返します。
+/// - rpt / Fields が未初期化の場合は "" を返す
+/// - フィールドが存在しない場合は "" を返す
+/// - 値が null / DBNull の場合は "" を返す
+/// - それ以外は ToString() した文字列を返す
+/// ※帳票処理中の NullReference / FieldNotFound を避けるためのヘルパーです。
+/// </summary>
+/// <param name="fieldName">取得したいフィールド名</param>
+/// <returns>取得できない場合は ""、取得できた場合は文字列</returns>
+private string SafeFieldStr(string fieldName)
+{
+	if (rpt == null || rpt.Fields == null) return "";
+	var f = rpt.Fields[fieldName];
+	if (f == null) return "";
+	var v = f.Value;
+	return (v == null || v == DBNull.Value) ? "" : v.ToString();
+}
+
+/// <summary>
+/// 指定したフィールドの値を安全に decimal として取得します。
+/// - rpt / Fields が未初期化の場合は 0m を返す
+/// - フィールドが存在しない場合は 0m を返す
+/// - 値が null / DBNull の場合は 0m を返す
+/// - decimal 変換に成功した場合はその値を返し、失敗した場合は 0m を返す
+/// ※帳票処理中の例外回避と、数値計算を安定させるためのヘルパーです。
+/// </summary>
+/// <param name="fieldName">取得したいフィールド名</param>
+/// <returns>取得できない/変換できない場合は 0m、成功時は decimal 値</returns>
+private decimal SafeFieldDec(string fieldName)
+{
+	if (rpt == null || rpt.Fields == null) return 0m;
+	var f = rpt.Fields[fieldName];
+	if (f == null) return 0m;
+
+	var v = f.Value;
+	if (v == null || v == DBNull.Value) return 0m;
+
+	decimal outDec;
+	return decimal.TryParse(v.ToString(), out outDec) ? outDec : 0m;
+}
+
+
+/// <summary>
+/// object を decimal に変換するユーティリティ。
+/// 変換に失敗した場合は 0 を返し、帳票計算中の例外を防ぐ。
+/// </summary>
+/// <param name="value">数値として扱いたい値。</param>
+/// <returns>変換後の decimal。失敗時は 0。</returns>
+decimal TryDecimal(object value)
+{
+	decimal outValue = 0M;
+	if (decimal.TryParse(value.ToString(), out outValue))
+	{
+		return outValue;
+	}
+	else
+	{
+		return 0M;
+	}
+}
+
+/// <summary>
+/// Crystal Reports の Right(文字列, 文字数) 相当。
+/// 指定した文字列の「右側から 文字数 分」を返します。
+/// - 文字数 <= 0 の場合は "" を返す
+/// - 文字数が文字列長より大きい場合は、取り得る範囲（文字列全体）を返す
+/// </summary>
+/// <param name="文字列">対象文字列</param>
+/// <param name="文字数">右側から取得する文字数</param>
+/// <returns>右側から指定文字数分の部分文字列</returns>
+private string GetCrystalRight(string 文字列, int 文字数)
+{
+	// 文字数が 0 以下は空
+	if (文字数 <= 0) return "";
+	
+	// 右から 文字数 文字
+	int start0 = Math.Max(0, 文字列.Length - 文字数);
+	return 文字列.Substring(start0, Math.Min(文字数, 文字列.Length - start0));
+}
+
+/// <summary>
+/// rpt.DataSource が存在し、System.Data.DataTable として有効か確認
+/// </summary>
+private bool CheckDataSource()
+{
+	// ブロック確認: DataSource が割り当てられているか（null でないか）を確認
+	if (rpt.DataSource == null)
+	{
+		return false;
+	}
+
+	// ブロック確認: DataSource を DataTable にキャストし、キャストの成功を確認
+	System.Data.DataTable dt = rpt.DataSource as System.Data.DataTable;
+	if (dt == null)
+	{
+		return false;
+	}
+
+	return true;
+}
+
+// rpt 内のすべてのセクションに対してテキスト系コントロールの背景色を透過に設定する
+private void SetBgColorTransparentAllSections()
+{
+	// 全セクションを順に処理
+	foreach (GrapeCity.ActiveReports.SectionReportModel.Section sec in rpt.Sections)
+	{
+		// セクション内のコントロールを順に処理
+		foreach (GrapeCity.ActiveReports.SectionReportModel.ARControl ctrl in sec.Controls)
+		{
+			// TextBox の場合は背景を透過にする
+			if (ctrl is TextBox)
+			{
+				TextBox tbx = (TextBox) ctrl;
+				tbx.BackColor = System.Drawing.Color.Transparent;
+			}
+
+			// Label の場合は背景を透過にする
+			if (ctrl is Label)
+			{
+				GrapeCity.ActiveReports.SectionReportModel.Label lbl = (Label) ctrl;
+				lbl.BackColor = System.Drawing.Color.Transparent;
+			}
+		}
+	}
+}
+
+/// <summary>
+/// 値を固定小数点の桁数で数値文字列に変換します。無効な値の場合は空文字列を返します。
+/// </summary>
+/// <param name="value">変換対象の値（null または DBNull の可能性あり）。</param>
+/// <param name="decimals">表示する小数点以下の桁数。</param>
+/// <returns>フォーマットされた文字列、または変換できない場合は空文字列を返します。</returns>
+private string GetCrystalToText(object value, int decimals)
+{
+	return GetCrystalToText(value, decimals, true); // G?i h?m ch?nh v?i m?c ??nh l? true
+}
+private string GetCrystalToText(object value, int decimals, bool thousandSep)
+{
+	// 入力チェック: value が null または DBNull の場合は空文字列を返す
+	if (value == null || value == DBNull.Value)
+		return "";
+
+	// 変換処理: 値を decimal に変換を試み、失敗したら空文字列を返す
+	decimal d;
+	if (!decimal.TryParse(value.ToString(), out d))
+		return "";
+
+	// 書式化: 指定された小数桁数で固定小数点形式の文字列を返す
+	if (thousandSep){
+		return d.ToString("N" + decimals);
+	}
+	return d.ToString("F" + decimals);
+}]]></Script>
+  <PageSettings LeftMargin="360" RightMargin="360" TopMargin="360" BottomMargin="360" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="2" />
+  <Parameters>
+    <Parameter Key="詳細テーブル名" DefaultValue="伝票データ" />
+  </Parameters>
+</ActiveReportsLayout>
