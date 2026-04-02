@@ -316,6 +316,26 @@ public class CodeGenerator
 		}
 
 		WriteLine("─" + new string('─', 50));
+		WriteLine();
+		WriteLine("Control Table (copy to Excel):");
+		WriteLine("No.\tFieldName\tType\tSection");
+
+		var index = 1;
+		foreach (var section in rpxDoc.Sections)
+		{
+			foreach (var control in section.Controls)
+			{
+				string controlType = (control.Type is "AR.Field" or "AR.TextBox")
+				? "TextBox"
+				: GetControlType(control);
+				string[] lsControlAccept = { "TextBox", "Subreport" };
+				if (controlType != null && lsControlAccept.Contains(controlType))
+				{
+								WriteLine($"{index}\t{control.Name}\t{controlType}\t{section.Name}");
+								index++;
+				}
+			}
+		}
 
 		return _builder.ToString();
 	}
