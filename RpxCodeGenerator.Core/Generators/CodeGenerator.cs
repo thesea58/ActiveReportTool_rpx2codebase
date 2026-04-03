@@ -71,9 +71,10 @@ public class CodeGenerator
 	private void GenerateSection(RpxSection section)
 	{
 		var varName = section.Name[0] + section.Name.Substring(1);
+		var sectionType = GetSectionVariableType(section);
 
 		WriteLine($"// {section.Type}: {section.Name}");
-		WriteLine($"Section {varName} = this.Sections[\"{section.Name}\"];");
+		WriteLine($"{sectionType} {varName} = this.Sections[\"{section.Name}\"] as {sectionType};");
 
 		if (section.Controls.Count > 0)
 		{
@@ -163,6 +164,23 @@ public class CodeGenerator
 	}
 
 	/// <summary>
+	/// Xác định kiểu section theo nhóm type ActiveReports hỗ trợ; còn lại dùng Section chung.
+	/// </summary>
+	private string GetSectionVariableType(RpxSection section)
+	{
+		return section.Type switch
+		{
+			"ReportHeader" => "ReportHeader",
+			"PageHeader" => "PageHeader",
+			"GroupHeader" => "GroupHeader",
+			"Group" => "Group",
+			"PageFooter" => "PageFooter",
+			"ReportFooter" => "ReportFooter",
+			_ => "Section"
+		};
+	}
+
+	/// <summary>
 	/// Sinh code để lấy tất cả controls từ một section với type casting
 	/// </summary>
 	public string GenerateTypedControlsExtraction(RpxDocument rpxDoc)
@@ -188,12 +206,13 @@ public class CodeGenerator
 				continue;
 
 			var sectionVarName = section.Name[0] + section.Name.Substring(1);
+			var sectionType = GetSectionVariableType(section);
 			WriteLine($"/// <summary>Extract controls from {section.Name}</summary>");
 			WriteLine($"public void Extract{section.Name}Controls()");
 			WriteLine("{");
 			_indentLevel++;
 
-			WriteLine($"Section {sectionVarName} = this.Sections[\"{section.Name}\"];");
+			WriteLine($"{sectionType} {sectionVarName} = this.Sections[\"{section.Name}\"] as {sectionType};");
 			WriteLine();
 
 			var textBoxControls = section.Controls.Where(c => c.Type == "AR.Field" || c.Type == "AR.TextBox");
@@ -253,10 +272,11 @@ public class CodeGenerator
 			//	continue;
 
 			var sectionVarName = section.Name[0] + section.Name.Substring(1);
+			var sectionType = GetSectionVariableType(section);
 			_indentLevel++;
 			WriteLine();
 
-			WriteLine($"private Section {sectionVarName};");
+			WriteLine($"private {sectionType} {sectionVarName};");
 
 			var textBoxControls = section.Controls.Where(c => c.Type == "AR.Field" || c.Type == "AR.TextBox");
 			foreach (var control in textBoxControls)
@@ -302,8 +322,9 @@ public class CodeGenerator
 			//	continue;
 
 			var sectionVarName = section.Name[0] + section.Name.Substring(1);
+			var sectionType = GetSectionVariableType(section);
 			WriteLine();
-			WriteLine($"this.{sectionVarName} = this.Sections[\"{section.Name}\"];");
+			WriteLine($"this.{sectionVarName} = this.Sections[\"{section.Name}\"] as {sectionType};");
 
 			// write textbox
 			var textBoxControls = section.Controls.Where(c => c.Type == "AR.Field" || c.Type == "AR.TextBox");
